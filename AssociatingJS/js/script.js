@@ -9,3 +9,6 @@ console.log(yearBorn);
 alert(yearBorn);
 */
 var age;
+age = 38;
+
+var yearOfBirth = 1970;
