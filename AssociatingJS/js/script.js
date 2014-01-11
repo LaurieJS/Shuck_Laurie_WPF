@@ -80,9 +80,9 @@ console.log(perimeter);
 //var secondPart = 4529;
 //var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secondPart);
 //console.log(phoneNo);
-var a = 3;
-a ++;
-console.log(a);
+//var a = 3;
+//a ++;
+//console.log(a);
 
 
 
