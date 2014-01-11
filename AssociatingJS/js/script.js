@@ -38,10 +38,15 @@ console.log(a);*/
 var yearBorn = 1972;
 var age = 2014 - yearBorn - 1;
 console.log(age);*/
+/*
 var width = 4;
 var height = 5;
 var area = width * height /2;
 console.log(area);
+*/
+var remainder = 32 % 10;
+console.log(remainder);
+
 
 
 
