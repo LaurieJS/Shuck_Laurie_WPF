@@ -20,13 +20,17 @@ var isStudent = true;
 var firstName = "Laurie";
 var phrase = 'I don\'t know \n You\'ll have to speak to the professor.';
 */
+/*
 var muppetNames = ["Kermit", "Miss Piggy"];
 
 muppetNames[1] = "Rizzo";
 muppetNames[2] = "Fozzy";
-var num = 2;
+var num = 1;
 
 console.log(muppetNames[num]);
+*/
+var a = 2;
+console.log(a);
 
 
 
