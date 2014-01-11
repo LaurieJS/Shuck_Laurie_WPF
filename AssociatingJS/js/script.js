@@ -29,10 +29,14 @@ var num = 1;
 
 console.log(muppetNames[num]);
 */
+/*
 var a = 2;
 var b;
 b = a + 3;
-console.log(a);
+console.log(a);*/
+var yearBorn = 1974;
+var age = 2012 - yearBorn;
+console.log(age);
 
 
 
