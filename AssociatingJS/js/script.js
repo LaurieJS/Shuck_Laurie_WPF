@@ -75,12 +75,14 @@ console.log(perimeter);
 //var stringVar = "6";
 //var result = 7 + Number(stringVar);
 //console.log(result);
-var areaCode = 407;
-var firstPart = 203;
-var secondPart = 4529;
-var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secondPart);
-console.log(phoneNo);
-
+//var areaCode = 407;
+//var firstPart = 203;
+//var secondPart = 4529;
+//var phoneNo = "(" + String(areaCode) + ")" + String(firstPart) + "-" + String(secondPart);
+//console.log(phoneNo);
+var a = 3;
+a ++;
+console.log(a);
 
 
 
