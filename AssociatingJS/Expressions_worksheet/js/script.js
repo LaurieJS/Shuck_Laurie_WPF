@@ -40,7 +40,19 @@ var weeklyAvg = total / 5;
 
 console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + weeklyAvg + " per week.")
 
+//Discounts
 
+//We need to find the price of an item with or without sales tax
+var origPrice = 50;
+var discount = 10;
+var itemDesc = "coat";
+var salesTax =  0.07;
+
+//Without tax equals the original price divided by the discount-- subtracted from the original price
+var withoutTax = origPrice - (origPrice / discount);
+//With tax equals the without tax price * the sales tax--added to the without tax price
+var withTax =  withoutTax + (withoutTax * salesTax);
+console.log("Your " + itemDesc + " was originally $" + origPrice + " but, after a " + discount + "% discount, it is now $" + withoutTax + " without tax, and $" + withTax + " with tax")
 
 
 
