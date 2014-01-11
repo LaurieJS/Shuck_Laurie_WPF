@@ -21,10 +21,11 @@ var firstName = "Laurie";
 var phrase = 'I don\'t know \n You\'ll have to speak to the professor.';
 */
 var muppetNames = ["Kermit", "Miss Piggy"];
+
 muppetNames[1] = "Rizzo";
-console.log(muppetNames[1]);
+muppetNames[2] = "Fozzy";
 
-
+console.log(muppetNames[2]);
 
 
 
