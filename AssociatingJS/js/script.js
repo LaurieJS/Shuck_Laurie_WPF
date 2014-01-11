@@ -68,11 +68,13 @@ console.log(perimeter);
 //var lastName = "Shuck";
 //var fullName = firstName + " " + lastName;
 //console.log(fullName);
-var a = "6";
-var b = "7";
-var result = a + b;
+//var a = "6";
+//var b = "7";
+//var result = a + b;
+//console.log(result);
+var stringVar = "6";
+var result = 7 + Number(stringVar);
 console.log(result);
-
 
 
 
