@@ -44,7 +44,7 @@ var height = 5;
 var area = width * height /2;
 console.log(area);
 */
-var remainder = 32 % 10;
+var remainder = 32 % 2;
 console.log(remainder);
 
 
