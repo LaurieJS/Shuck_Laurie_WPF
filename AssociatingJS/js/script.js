@@ -24,8 +24,9 @@ var muppetNames = ["Kermit", "Miss Piggy"];
 
 muppetNames[1] = "Rizzo";
 muppetNames[2] = "Fozzy";
+var num = 2;
 
-console.log(muppetNames[2]);
+console.log(muppetNames[num]);
 
 
 
