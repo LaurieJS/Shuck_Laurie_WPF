@@ -30,6 +30,7 @@ var num = 1;
 console.log(muppetNames[num]);
 */
 var a = 2;
+a = a + 3;
 console.log(a);
 
 
