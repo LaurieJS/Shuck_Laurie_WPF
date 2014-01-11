@@ -34,9 +34,14 @@ var a = 2;
 var b;
 b = a + 3;
 console.log(a);*/
+/*
 var yearBorn = 1972;
 var age = 2014 - yearBorn - 1;
-console.log(age);
+console.log(age);*/
+var width = 4;
+var height = 5;
+var area = width * height /2;
+console.log(area);
 
 
 
