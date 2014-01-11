@@ -34,8 +34,8 @@ var a = 2;
 var b;
 b = a + 3;
 console.log(a);*/
-var yearBorn = 1974;
-var age = 2012 - yearBorn;
+var yearBorn = 1972;
+var age = 2013 - yearBorn;
 console.log(age);
 
 
