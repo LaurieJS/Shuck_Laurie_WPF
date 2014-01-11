@@ -25,6 +25,8 @@ var slicesPerson = pizzas * slices / people;
 console.log("Each person ate " + slicesPerson + " slices of pizza at the party.");
 
 //Slice of the Pie part 2
+
+//Multiply pizza * slices then divide by people with the remainder going to Sparky
 var sparkyPizza = pizzas * slices % people;
 console.log("Sparky got " + sparkyPizza + " slices of pizza.");
 
