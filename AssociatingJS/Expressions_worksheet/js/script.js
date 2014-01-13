@@ -21,7 +21,7 @@ console.log("Sparky is " + humanYears + " human years old, which is " + sparkyAg
 //Slice of the Pie part 1
 
 //Calculate how many slices of pizza each person will receive
-//Multiply pizza * slices, and divide by the number of people
+//These variables respresent: How many slices, how many people, how many pizzas
 var slices = 5.5;
 var people = 8;
 var pizzas = 7;
@@ -31,9 +31,10 @@ var slicesPerson = pizzas * slices / people;
 //Print to the console the amount of slices of pizza per person
 console.log("Each person ate " + slicesPerson + " slices of pizza at the party.");
 
+
 //Slice of the Pie part 2
 
-//Calculate how many slices of leftover pizza will go to Sparky 
+//Calculate how many remaining slices of pizza will go to Sparky 
 //Multiply pizza * slices, then divide (with modulo) by people, with the remainder going to Sparky
 var sparkyPizza = pizzas * slices % people;
 //Print to the console how many slices of pizza Sparky will receive
