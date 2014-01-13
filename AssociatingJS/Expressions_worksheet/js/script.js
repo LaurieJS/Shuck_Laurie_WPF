@@ -67,6 +67,8 @@ var salesTax =  0.07;
 var withoutTax = origPrice - (origPrice / discount);
 //With tax equals the without tax price * the sales tax--added to the without tax price
 var withTax =  withoutTax + (withoutTax * salesTax);
+
+//Print to the console the item description, the original price, the discount, and the new price with or without tax
 console.log("Your " + itemDesc + " was originally $" + origPrice + " but, after a " + discount + "% discount, it is now $" + withoutTax + " without tax, and $" + withTax + " with tax")
 
 
