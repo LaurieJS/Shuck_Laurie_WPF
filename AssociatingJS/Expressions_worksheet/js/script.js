@@ -14,6 +14,7 @@ var dogYears = 7;
 
 //The variable sparkyAge is equal to human years multiplied by dog years
 var sparkyAge = humanYears * dogYears;
+
 //Print to the console Sparky's age in human years and dog years
 console.log("Sparky is " + humanYears + " human years old, which is " + sparkyAge + " in dog years.");
 
@@ -28,6 +29,7 @@ var pizzas = 7;
 
 //Multiply pizza * slices, and divide by the number of people to find the slices per person (slicesPerson variable)
 var slicesPerson = pizzas * slices / people;
+
 //Print to the console the amount of slices of pizza per person
 console.log("Each person ate " + slicesPerson + " slices of pizza at the party.");
 
@@ -37,13 +39,15 @@ console.log("Each person ate " + slicesPerson + " slices of pizza at the party."
 //Calculate how many remaining slices of pizza will go to Sparky 
 //Multiply pizza * slices, then divide (with modulo) by people, with the remainder going to Sparky
 var sparkyPizza = pizzas * slices % people;
+
 //Print to the console how many slices of pizza Sparky will receive
 console.log("Sparky got " + sparkyPizza + " slices of pizza.");
 
 
 //Average Shopping Bill
+
 //Calculate a weekly grocery bill using 5 weekly bills
-//An array filled with the five weekly bills
+//An array filled with the five weekly bill amounts
 var weeklyBill = [78, 82, 97, 115, 65];
 
 //Add the weekly bills together to find the total for five weeks
