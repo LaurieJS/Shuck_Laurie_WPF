@@ -42,8 +42,10 @@ console.log("Sparky got " + sparkyPizza + " slices of pizza.");
 
 //Average Shopping Bill
 //Calculate a weekly grocery bill using 5 weekly bills
+//An array filled with the five weekly bills
 var weeklyBill = [78, 82, 97, 115, 65];
 
+//
 var total = weeklyBill[0] + weeklyBill[1] + weeklyBill[2] + weeklyBill[3] + weeklyBill[4];
 var weeklyAvg = total / 5;
 
