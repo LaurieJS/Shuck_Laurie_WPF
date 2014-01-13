@@ -48,6 +48,7 @@ var weeklyBill = [78, 82, 97, 115, 65];
 
 //Add the weekly bills together to find the total for five weeks
 var total = weeklyBill[0] + weeklyBill[1] + weeklyBill[2] + weeklyBill[3] + weeklyBill[4];
+//To find the weekly average, divide the total  by five
 var weeklyAvg = total / 5;
 
 console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + weeklyAvg + " per week.")
