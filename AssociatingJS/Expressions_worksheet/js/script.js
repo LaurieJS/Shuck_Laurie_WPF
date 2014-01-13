@@ -56,7 +56,8 @@ console.log("You have spent a total of $" + total + " on groceries over 5 weeks.
 
 //Discounts
 
-//We need to find the price of an item with or without sales tax
+//Find the price of an item with or without sales tax
+//These variables represent the original price, the discount (%), an item description, and the applicable sales tax
 var origPrice = 50;
 var discount = 10;
 var itemDesc = "coat";
