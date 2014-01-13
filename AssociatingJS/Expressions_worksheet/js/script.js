@@ -61,18 +61,18 @@ console.log("You have spent a total of $" + total + " on groceries over 5 weeks.
 //Discounts
 
 //Find the price of an item with or without sales tax
-//These variables represent the original price, the discount (%), an item description, and the applicable sales tax
+//These variables represent the original price($), the discount (%), an item description, and the applicable sales tax
 var origPrice = 50;
 var discount = 10;
 var itemDesc = "coat";
 var salesTax =  0.07;
 
-//Without tax equals the original price divided by the discount-- subtracted from the original price
+//The withoutTax variable equals the original price divided by the discount-- subtracted from the original price
 var withoutTax = origPrice - (origPrice / discount);
-//With tax equals the without tax price * the sales tax--added to the without tax price
+//The withTax variable equals the without tax price * the sales tax--added to the without tax price
 var withTax =  withoutTax + (withoutTax * salesTax);
 
-//Print to the console the item description, the original price, the discount, and the new price with or without tax
+//Print to the console the item description, the original price, the discount, and the new price with and without tax
 console.log("Your " + itemDesc + " was originally $" + origPrice + " but, after a " + discount + "% discount, it is now $" + withoutTax + " without tax, and $" + withTax + " with tax")
 
 
