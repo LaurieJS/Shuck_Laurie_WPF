@@ -45,7 +45,7 @@ console.log("Sparky got " + sparkyPizza + " slices of pizza.");
 //An array filled with the five weekly bills
 var weeklyBill = [78, 82, 97, 115, 65];
 
-//
+//Add the weekly bills together to find the total for five weeks
 var total = weeklyBill[0] + weeklyBill[1] + weeklyBill[2] + weeklyBill[3] + weeklyBill[4];
 var weeklyAvg = total / 5;
 
