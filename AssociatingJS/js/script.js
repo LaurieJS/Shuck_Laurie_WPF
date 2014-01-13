@@ -84,6 +84,8 @@ console.log(perimeter);
 //a ++;
 //console.log(a);
 
+var userInput = prompt("Enter your year of birth:");
+console.log(userInput);
 
 
 
