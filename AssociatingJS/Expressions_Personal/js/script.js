@@ -24,8 +24,9 @@ var tipCalc = tip /= 100;
 var billCalc = bill * tipCalc;
 
 //This line will calculate the diner's portion of the bill.
+var dinerTotal = (bill + billCalc) / diners;
 
-alert(billCalc);
+alert(dinerTotal);
 
 
 
