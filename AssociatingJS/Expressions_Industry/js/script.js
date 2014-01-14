@@ -19,6 +19,7 @@ var columns = prompt("How many columns would you like?");
 //This line will multiply the left or right margin by 2, and then it will subtract that amount from the page width, and then it will divide by the number of columns.
 var solution = (pageWidth - margin * 2) / columns;
 
+//This variable holds the answer to the question and the reply
 var answer = ("Each of your " + columns + " columns should have a width of " + solution + "pixels." );
 
 
