@@ -23,6 +23,8 @@ var tipCalc = tip /= 100;
 //Here we will name a variable that will make the calculation
 var dinerCost = (bill + bill * tipCalc) / diners;
 
+alert(dinerCost);
+
 
 
 
