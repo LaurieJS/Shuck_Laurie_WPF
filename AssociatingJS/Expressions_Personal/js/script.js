@@ -23,6 +23,8 @@ var tipCalc = tip /= 100;
 //Here we will name a variable that will multiply the bill and the tip
 var billCalc = bill * tipCalc;
 
+//This line will calculate the diner's portion of the bill.
+
 alert(billCalc);
 
 
