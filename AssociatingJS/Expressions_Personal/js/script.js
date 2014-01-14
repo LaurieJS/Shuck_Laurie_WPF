@@ -14,3 +14,5 @@ var bill = prompt("What is the total cost of your bill?");
 //Next, we will find out how many people are dining.
 var diners = prompt("How many diners?");
 
+//Then, we will find out the percentage of tip that they would like to leave.
+
