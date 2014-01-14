@@ -11,7 +11,7 @@
 var pageWidth = prompt("What is the total width of your webpage in pixels?");
 
 //Then, we need to find out the amount of margin desired
-var margin = prompt("Indicate the margin amount that you would like on either side of the page--in pixels:");
+var margin = prompt("Indicate the amount of margin that you would like on either side of the page in pixels:");
 
 //Next, we need to determine how many columns the webpage should have
 var columns = prompt("How many columns would you like?");
