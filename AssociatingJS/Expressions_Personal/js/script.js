@@ -17,8 +17,9 @@ var diners = prompt("How many diners?") - 0;
 //Then, we will find out the percentage of tip that they would like to leave.
 var tip = prompt("How much of a tip would you like to leave? \nExample: 20 equals 20%.") - 0;
 
-//Here we will begin to calculate the bill
+//Here we will begin by converting the tip into a percentage.
 var tipCalc = tip /= 100;
+
 var billCalc = bill * tipCalc;
 var finalCost = (bill + billCalc) / diners;
 
