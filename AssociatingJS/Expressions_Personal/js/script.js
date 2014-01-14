@@ -20,7 +20,7 @@ var tip = prompt("How much of a tip would you like to leave? \nExample: 20 indic
 //Here we will convert the tip input to percentage
 var tipCalc = tip /= 100;
 
-
+//Here we will name a variable that will make the calculation
 
 
 
