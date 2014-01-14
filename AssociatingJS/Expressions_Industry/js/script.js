@@ -17,6 +17,7 @@ var margin = prompt("Indicate the margin amount that you would like on either si
 var columns = prompt("How many columns would you like?");
 
 //This line will begin the calculation
+var solution = 
 
 
 
