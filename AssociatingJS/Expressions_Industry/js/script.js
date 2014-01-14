@@ -16,4 +16,20 @@ var margin = prompt("Indicate the margin amount that you would like on either si
 //Next, we need to determine how many columns the webpage should have
 var columns = prompt("How many columns would you like?");
 
+//This line will begin the calculation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
