@@ -22,6 +22,8 @@ var solution = (pageWidth - margin * 2) / columns;
 //This variable holds the answer to the question and the reply
 var answer = ("Each of your " + columns + " columns should have a width of " + solution + "pixels." );
 
+console.log(answer);
+
 
 
 
