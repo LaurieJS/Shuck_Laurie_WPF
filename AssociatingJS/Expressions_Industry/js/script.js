@@ -8,7 +8,7 @@
  */
 
 //First, we need to determine the total width of the page
-var pageWidth = prompt("What is the total width of your webpage?");
+var pageWidth = prompt("What is the total width of your webpage in pixels?");
 
 //Then, we need to find out the amount of margin desired
 var margin = prompt("Indicate the margin amount that you would like on either side of the page--in pixels:");
