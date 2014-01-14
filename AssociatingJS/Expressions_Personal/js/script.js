@@ -18,7 +18,7 @@ var diners = prompt("How many diners?");
 var tip = prompt("How much of a tip would you like to leave? /nExample: enter 20 to indicate 20%.");
 
 //Here we will convert the tip input to percentage
-
+var tipCalc = tip /= 100;
 
 
 
