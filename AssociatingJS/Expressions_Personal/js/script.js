@@ -12,5 +12,5 @@
 var bill = prompt("What is the total cost of your bill?");
 
 //Next, we will find out how many people are dining.
-var diners = 
+var diners = prompt("How many diners?");
 
