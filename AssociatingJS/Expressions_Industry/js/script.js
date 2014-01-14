@@ -8,3 +8,4 @@
  */
 
 //First we need to determine the total width of the page
+var totalWidth = prompt("What is the total width of your webpage?");
