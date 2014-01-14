@@ -15,5 +15,5 @@ var bill = prompt("What is the total cost of your bill?");
 var diners = prompt("How many diners?");
 
 //Then, we will find out the percentage of tip that they would like to leave.
-var tip = prompt("How much of a tip would you like to leave? /nExample: enter 20 to indicate 20%.")
+var tip = prompt("How much of a tip would you like to leave? /nExample: enter 20 to indicate 20%.");
 
