@@ -8,7 +8,7 @@
  */
 
 //First, we need to determine the total width of the page
-var totalWidth = prompt("What is the total width of your webpage?");
+var pageWidth = prompt("What is the total width of your webpage?");
 
 //Then, we need to find out the amount of margin desired
 var margin = prompt("Indicate the margin amount that you would like on either side of the page--in pixels:");
@@ -16,8 +16,8 @@ var margin = prompt("Indicate the margin amount that you would like on either si
 //Next, we need to determine how many columns the webpage should have
 var columns = prompt("How many columns would you like?");
 
-//This line will begin the calculation
-var solution = (totalWidth - margin * 2) / columns;
+//This line will multiply the left or right margin by 2, and then it will subtract that amount from the page width, and then it will divide by the number of columns.
+var solution = (pageWidth - margin * 2) / columns;
 
 
 
