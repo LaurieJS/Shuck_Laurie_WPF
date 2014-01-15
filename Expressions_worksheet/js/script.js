@@ -21,6 +21,7 @@ console.log("Sparky is " + sparkyAge + " human years old, which is " + sparkyYea
 //Slice of the Pie part 1
 
 //Calculate how many slices of pizza each person will receive
+
 //These variables respresent: How many slices, how many people, how many pizzas
 var slices = 5.5;
 var people = 8;
@@ -35,7 +36,8 @@ console.log("Each person ate " + slicesPerson + " slices of pizza at the party."
 
 //Slice of the Pie part 2
 
-//Calculate how many remaining slices of pizza will go to Sparky 
+//Calculate how many remaining slices of pizza will go to Sparky
+ 
 //Multiply pizza * slices, then divide (with modulo) by people, with the remainder going to Sparky
 var sparkyPizza = pizzas * slices % people;
 
@@ -46,6 +48,7 @@ console.log("Sparky got " + sparkyPizza + " slices of pizza.");
 //Average Shopping Bill
 
 //Calculate a weekly grocery bill using 5 weekly bills
+
 //An array filled with the five weekly bill amounts
 var weeklyBill = [78, 82, 97, 115, 65];
 
@@ -60,15 +63,17 @@ console.log("You have spent a total of $" + total + " on groceries over 5 weeks.
 //Discounts
 
 //Find the price of an item with or without sales tax
+
 //These variables represent the original price($), the discount (%), an item description, and the applicable sales tax
 var origPrice = 50;
 var discount = 10;
 var itemDesc = "coat";
 var salesTax =  0.07;
 
-//The withoutTax variable equals the original price divided by the discount-- subtracted from the original price
+//The withoutTax variable is the original price divided by the discount-- subtracted from the original price
 var withoutTax = origPrice - (origPrice / discount);
-//The withTax variable equals the without tax price * the sales tax--added to the without tax price
+
+//The withTax variable is the without tax price * the sales tax--added to the without tax price
 var withTax =  withoutTax + (withoutTax * salesTax);
 
 //Print to the console the item description, the original price, the discount, and the new price with and without tax
