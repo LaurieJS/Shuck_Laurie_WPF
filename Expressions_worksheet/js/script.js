@@ -7,11 +7,11 @@ Expressions Worksheet
 //Dog Years
 
 //Calculate Sparky's age in dog years
-//Sparky's age will be given in humanYears
-//A dog year is 7 years (dogYears)
+
+//This is Sparky's age in human years
 var sparkyAge = 4;
 
-//The variable sparkyAge is equal to human years multiplied by dog years
+//The variable sparkyYear is equal to Sparky's human age multiplied by dog years
 var sparkyYear = sparkyAge * 7;
 
 //Print to the console Sparky's age in human years and dog years
