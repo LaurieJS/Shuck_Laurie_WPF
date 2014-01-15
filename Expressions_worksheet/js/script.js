@@ -12,10 +12,10 @@ Expressions Worksheet
 var sparkyAge = 4;
 
 //The variable sparkyAge is equal to human years multiplied by dog years
-var sparkyAge = humanYears * dogYears;
+var sparkyYear = sparkyAge * 7;
 
 //Print to the console Sparky's age in human years and dog years
-console.log("Sparky is " + humanYears + " human years old, which is " + sparkyAge + " in dog years.");
+console.log("Sparky is " + sparkyAge + " human years old, which is " + sparkyYear + " in dog years.");
 
 
 //Slice of the Pie part 1
