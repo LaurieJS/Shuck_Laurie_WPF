@@ -23,10 +23,11 @@ var tipCalc = tip / 100;
 //On this line, we will multiply the bill by the tip,which is divided by 100.
 var billCalc = bill * tipCalc;
 
-/*Then we will add the bill to the billCalc, and divide that by the number of diners.*/
+//Then we will add the bill to the billCalc, and divide that by the number of diners.
 var finalCost = (bill + billCalc) / diners;
 
-alert("With a bill of $" + bill + ", and a tip of " + tip + "%, each of the " + diners + " diners will owe $" + finalCost + ".");
+//Finally, we will print the calculated information to the console.
+console.log("With a bill of $" + bill + ", and a tip of " + tip + "%, each of the " + diners + " diners will owe $" + finalCost + ".");
 
 
 
