@@ -42,7 +42,7 @@ console.log("Each person ate " + slicesPerson + " slices of pizza at the party."
 var sparkyPizza = pizzas * slices % people;
 
 //Print to the console how many slices of pizza Sparky will receive
-console.log("Sparky got " + sparkyPizza + " slices of pizza.");
+console.log("Sparky gets " + sparkyPizza + " slices of pizza.");
 
 
 //Average Shopping Bill
@@ -77,7 +77,7 @@ var withoutTax = origPrice - (origPrice / discount);
 var withTax =  withoutTax + (withoutTax * salesTax);
 
 //Print to the console the item description, the original price, the discount, and the new price with and without tax
-console.log("Your " + itemDesc + " was originally $" + origPrice + " but, after a " + discount + "% discount, it is now $" + withoutTax + " without tax, and $" + withTax + " with tax")
+console.log("Your " + itemDesc + " was originally $" + origPrice + ", but after a " + discount + "% discount it is now $" + withoutTax + " without tax, and $" + withTax + " with tax.")
 
 
 
