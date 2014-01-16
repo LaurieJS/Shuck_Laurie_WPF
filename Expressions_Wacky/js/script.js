@@ -16,4 +16,6 @@
 	var unicornCalc = shoeOrder[1]	* 4;
 	
 	var horseCalc = shoeOrder[2] * 4;
-	alert(horseCalc);
+	
+	var shoeCalc = unicornCalc + horseCalc - shoeOrder[3];
+	alert(shoeCalc);
