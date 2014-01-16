@@ -1,6 +1,8 @@
 /* 
     Laurie Shuck
     January 16, 2014
-    Expressions Industry Assignment
+    Expressions Wacky Assignment
  */
+ 
+ //Starting my wacky 
  
