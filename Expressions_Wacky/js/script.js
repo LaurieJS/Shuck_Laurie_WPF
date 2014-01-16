@@ -6,3 +6,5 @@
  
  //Starting my wacky 
  
+ var myArray = [];
+ 	   
