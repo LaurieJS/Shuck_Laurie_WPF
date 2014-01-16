@@ -9,4 +9,6 @@
 //This is the array that will hold the customer's information
  var shoeOrder = [];
 		 shoeOrder[0] = prompt("What is your first name?");
-		 shoeOrder[1] = prompt("What is your last name?";
+		 shoeOrder[1] = prompt("What is your last name?");
+		 shoeOrder[2] = prompt("Which unicorn farm shall we deliver the shoes?");
+		 shoeOrder[3] = prompt("How many unicorns are you buying?");
