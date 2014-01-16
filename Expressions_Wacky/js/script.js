@@ -18,9 +18,10 @@
 		 //This array object finds out if any of the animals have missing feet
 		 shoeOrder[2] = prompt("Are any of the animals missing feet? If yes, enter the number of feet that are missing. If not, enter 0.");
 		 
-	//This variable multiplies the unicorn shoe needs times the number of feet unicorns have	 
+	//This variable multiplies the number of unicorns by the number of feet unicorns have	 
 	var unicornCalc = shoeOrder[0]	* 4;
 	
+	//This variable multiplies the number of horses by the number of feet that horses have
 	var horseCalc = shoeOrder[1] * 4;
 	
 	var shoeCalc = unicornCalc + horseCalc - shoeOrder[2];
