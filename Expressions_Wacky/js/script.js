@@ -13,5 +13,6 @@
 		 shoeOrder[2] = prompt("Which unicorn farm shall we deliver the shoes?");
 		 shoeOrder[3] = prompt("How many unicorns are you buying?");
 		 shoeOrder[5] = prompt("How many horses are you buying?");
-		 shoeOrder[6] = prompt("Are any of the animals missing feet? If not, enter 0.");
-		 shoeOrder[7] = prompt("How many horses are you buying?");
+		 shoeOrder[6] = prompt("Are any of the animals missing feet? If yes, enter the number of feet that are missing. If not, enter 0.");
+		 
+	var shoeCalc = 	 
