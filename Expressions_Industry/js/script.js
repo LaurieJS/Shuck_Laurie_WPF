@@ -22,11 +22,13 @@ var columnCalc = (pageWidth - margin * 2) / columns;
 //This variable holds the answer to the question and the reply
 var columnWidth = ("Your " + columns + " columns should each have a width of " + columnCalc + " pixels." );
 
+//This will alert the answer
+alert(columnWidth);
+
 //This line will print the answer to the console
 console.log(columnWidth);
 
-//This will alert the answer
-alert(columnWidth);
+
 
 
 
