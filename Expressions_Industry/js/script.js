@@ -25,7 +25,8 @@ var columnWidth = ("Your " + columns + " columns should each have a width of " +
 //This line will print the answer to the console
 console.log(columnWidth);
 
-
+//This will alert the answer
+alert(columnWidth);
 
 
 
