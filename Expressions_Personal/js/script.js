@@ -6,7 +6,7 @@
 
 //Dinner with friends
 
-//When I go to dinner with friends, we often split the bill evenly after we decide on the tip amount. This caluculator will determine the cost of each diner's portion of the bill after the gratuity has been added.
+/*When I go to dinner with friends, we often split the bill evenly after we decide on the tip amount. This calculator will determine the cost of each diner's portion of the bill after the gratuity has been added.*/
 
 //We will begin by finding out the cost of the bill.
 var bill = prompt("What is the total cost of your bill?") - 0;
@@ -27,7 +27,7 @@ var billCalc = bill * tipCalc;
 var finalCost = (bill + billCalc) / diners;
 
 //Finally, we will print the calculated information to the console.
-console.log("With a bill of $" + bill + " and a tip of " + tip + "%, each of the " + diners + " diners will owe $" + finalCost + ".");
+console.log("With a bill of $" + bill + ", and a tip of " + tip + "%, each of the " + diners + " diners will owe $" + finalCost + ".");
 
 
 
