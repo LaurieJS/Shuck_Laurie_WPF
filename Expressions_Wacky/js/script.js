@@ -18,5 +18,6 @@
 	
 	var shoeCalc = unicornCalc + horseCalc - shoeOrder[2];
 	
-	console.log("For " + shoeOrder[0] + " unicorns and " + shoeOrder[1] + " horses with " + shoeOrder[2] + " legs missing you will need to purchase " + shoeCalc + " shoes.");
-	alert(shoeCalc);
+	console.log("For " + shoeOrder[0] + " unicorns and " + shoeOrder[1] + " horses, which are missing " + shoeOrder[2] + " feet, you will need to purchase " + shoeCalc + " shoes.");
+	
+	alert("For " + shoeOrder[0] + " unicorns and " + shoeOrder[1] + " horses, which are missing " + shoeOrder[2] + " feet, you will need to purchase " + shoeCalc + " shoes.");
