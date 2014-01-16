@@ -27,7 +27,7 @@ var billCalc = bill * tipCalc;
 var finalCost = (bill + billCalc) / diners;
 
 //Finally, we will print the calculated information to the console.
-console.log("With a bill of $" + bill + ", and a tip of " + tip + "%, each of the " + diners + " diners will owe $" + finalCost + ".");
+console.log("With a bill of $" + bill + " and a tip of " + tip + "%, each of the " + diners + " diners will owe $" + finalCost + ".");
 
 
 
