@@ -4,7 +4,7 @@
     Expressions Wacky Assignment
  */
  
- /*You placed an order for unicorns and horses and now you need to purchase shoes for them. This calculation will determine how many shoes need to be ordered.*/
+ /*You placed an order for unicorns and horses, and now you need to purchase shoes for them. This calculation will determine how many shoes you will need to order.*/
  
 //This is the array that holds three prompts, which asks the user information about their shoe buying needs.
  var shoeOrder = [];
@@ -18,6 +18,7 @@
 		 //This array object finds out if any of the animals have missing feet
 		 shoeOrder[2] = prompt("Are any of the animals missing feet? If yes, enter the number of feet that are missing. If not, enter 0.");
 		 
+	//This variable multiplies the unicorn shoe needs times the number of feet unicorns have	 
 	var unicornCalc = shoeOrder[0]	* 4;
 	
 	var horseCalc = shoeOrder[1] * 4;
