@@ -28,7 +28,7 @@ var horseCalc = shoeOrder[1] * 4;
 var shoeCalc = unicornCalc + horseCalc - shoeOrder[2];
 	
 //This will print the answer to the console	
-console.log("For " + shoeOrder[0] + " unicorns and " + shoeOrder[1] + " horses that are missing " + shoeOrder[2] + " feet you will need to purchase " + shoeCalc + " shoes.");
+console.log("For " + shoeOrder[0] + " unicorns and " + shoeOrder[1] + " horses, which are missing " + shoeOrder[2] + " feet, you will need to purchase " + shoeCalc + " shoes.");
 	
 //This will alert the user of their shoe buying needs	
-alert("For " + shoeOrder[0] + " unicorns and " + shoeOrder[1] + " horses that are missing " + shoeOrder[2] + " feet you will need to purchase " + shoeCalc + " shoes.");
+alert("For " + shoeOrder[0] + " unicorns and " + shoeOrder[1] + " horses, which are missing " + shoeOrder[2] + " feet, you will need to purchase " + shoeCalc + " shoes.");
