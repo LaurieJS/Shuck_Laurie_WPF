@@ -7,4 +7,5 @@
  //Starting my wacky 
  
  var myArray = [];
- 	   
+ 	   myArray[0] = "";
+		 myArray[1] = "";
