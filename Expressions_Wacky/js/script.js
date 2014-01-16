@@ -12,3 +12,6 @@
 		 shoeOrder[1] = prompt("What is your last name?");
 		 shoeOrder[2] = prompt("Which unicorn farm shall we deliver the shoes?");
 		 shoeOrder[3] = prompt("How many unicorns are you buying?");
+		 shoeOrder[5] = prompt("How many horses are you buying?");
+		 shoeOrder[6] = prompt("How many horses are you buying?");
+		 shoeOrder[7] = prompt("How many horses are you buying?");
