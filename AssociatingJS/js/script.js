@@ -121,13 +121,13 @@ if(sunny){
 	}
 }*/
 
-var oldEnough = false;
-
-//If the child is old enough, print to the console "you can ride"
-if(oldEnough){
+var kidHeight = 50;
+var minHeight = 48;
+//If the child is tall enough, print to the console "you can ride"
+if(kidHeight > minHeight){
 	console.log("You can ride the coaster!");
 }else{
-	console.log("Sorry, you are not old enough.");
+	console.log("Sorry, you are not tall enough.");
 }
 
 
