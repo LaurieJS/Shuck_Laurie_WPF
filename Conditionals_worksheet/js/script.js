@@ -7,3 +7,4 @@
 //Stuff Your Face 
 
 //This is the variable fo the competitor's weight
+var weight = 280;
