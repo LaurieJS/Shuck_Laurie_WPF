@@ -121,7 +121,7 @@ if(sunny){
 	}
 }*/
 
-var kidHeight = 52;
+/*var kidHeight = 52;
 var minHeight = 48;
 var wParentHeight = 45;
 //If the child is tall enough, print to the console "you can ride"
@@ -131,6 +131,16 @@ if(kidHeight >= minHeight){
 	console.log("You can ride, but only with a parent present");
 }else{
 	console.log("Sorry, you are not tall enough.");
+}*/
+
+var budget = 300;
+var iPhonePrice = 199.99;
+var wonLottery = true;
+
+if(iPhonePrice < budget || wonLottery === true){
+	console.log("You can buy the phone!");
+}else{
+	console.log("No phone for you!");
 }
 
 
