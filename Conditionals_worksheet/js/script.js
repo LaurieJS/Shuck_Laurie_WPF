@@ -6,5 +6,7 @@
 
 //Stuff Your Face 
 
-//This is the variable fo the competitor's weight
+//This is the variable for the competitor's weight
 var weight = 280;
+
+//This if/else statement will determine if the competitor has qualified
