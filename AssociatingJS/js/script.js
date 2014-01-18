@@ -121,11 +121,10 @@ if(sunny){
 	}
 }*/
 
-var kidHeight = 47;
+var kidHeight = 48;
 var minHeight = 48;
-var sneakerLift = 2;
 //If the child is tall enough, print to the console "you can ride"
-if(kidHeight + sneakerLift > minHeight){
+if(kidHeight >= minHeight){
 	console.log("You can ride the coaster!");
 }else{
 	console.log("Sorry, you are not tall enough.");
