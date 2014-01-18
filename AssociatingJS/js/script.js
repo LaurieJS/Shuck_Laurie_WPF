@@ -102,13 +102,23 @@ if(sunny){
 		alert("Go to the movies.");
 		}*/
 		
-var temp = 82;
+/*var temp = 82;
 
 if(temp > 70){
 	console.log("Go to the beach!");
 }
 else{
 	console.log("Go to the movies!");
+}*/
+var sunny = true;
+if(sunny){
+	goToTheBeach();
+	if(warmWater){
+		wearNewSuit();
+	}
+	else{
+		goToTheMovies();
+	}
 }
 
 
