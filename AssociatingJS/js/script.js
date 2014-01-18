@@ -94,14 +94,22 @@ var area = width * height;
 var result = "The area of your rectangle is " + area + ".";
 alert(result);*/
 
-var sunny = false;
+/*var sunny = false;
 if(sunny){
 	alert("Go to the beach!");
 	}
 	else{
 		alert("Go to the movies.");
-		}
+		}*/
+		
+var temp = 82;
 
+if(temp > 70){
+	console.log("Go to the beach!");
+}
+else{
+	console.log("Go to the movies!");
+}
 
 
 
