@@ -133,7 +133,7 @@ if(kidHeight >= minHeight){
 	console.log("Sorry, you are not tall enough.");
 }*/
 
-var budget = 300;
+/*var budget = 300;
 var iPhonePrice = 199.99;
 var wonLottery = true;
 
@@ -141,9 +141,30 @@ if(iPhonePrice < budget || wonLottery === true){
 	console.log("You can buy the phone!");
 }else{
 	console.log("No phone for you!");
+}*/
+
+//var gpa = 48;
+
+/*if( gpa > 2.0){
+	console.log("You can graduate!");
+}else{
+	console.log("GPA is too low.");
 }
+*/
+//(gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA too low!");
 
+var age = 11;
+var book;
 
+/*if(age < 10){
+	book = "Green Eggs and Ham";
+}else{
+	book = "The Time Machine";
+}
+console.log(book);*/
+
+book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);
 
 
 
