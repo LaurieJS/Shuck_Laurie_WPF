@@ -38,6 +38,13 @@ var tankCapacity = 30;
 //This will calculate how many miles of gas remaining
 var gasCalc = tankCapacity * tankReading * gasEfficiency;
 
+//The following if/else statement will determine if you have enough gas
+
+if(){
+	
+}else{
+	
+}
 
 alert(gasCalc);
 
