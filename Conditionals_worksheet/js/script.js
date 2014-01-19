@@ -26,4 +26,5 @@ if(weight >= 250){
 
 //This code will determine if you have enough gas to make it to the next gas station
 
-//The variable of your car's gas efficiency
+//The variable of your car's gas efficiency in MPG
+var gasEfficiency = 10;
