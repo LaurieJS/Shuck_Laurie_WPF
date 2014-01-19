@@ -89,6 +89,12 @@ if(userName == actualName && userPass == actualPass){
 	console.log("Password does not match our records.");
 }
 
+//Movie ticket price (Group 3)
+
+//The following code will determine if you get a discounted movie price
+
+//The variable holding the movie time in whole numbers
+var movieTime = 3;
 
 
 
