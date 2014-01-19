@@ -34,3 +34,13 @@ var tankReading = 0.20;
 
 //This is the variable of the gas tank's capacity
 var tankCapacity = 30;
+
+//This will calculate how many miles of gas remaining
+var gasCalc = tankCapacity * tankReading * gasEfficiency;
+
+
+alert(gasCalc);
+
+
+
+
