@@ -94,9 +94,33 @@ if(userName == actualName && userPass == actualPass){
 //The following code will determine if you get a discounted movie price
 
 //The variable holding the movie time in whole numbers
-var movieTime = 3;
+var movieTime = 7;
 
+//This is the variable that holds the moviegoer's age
+var age = 28;
 
+//This is the variable for the regular price
+var regPrice = 12;
+
+//This is the variable for the regular price
+var salePrice = 7;
+
+//If the movie time is greater than 3 AND less than 5
+if(movieTime > 3 && movieTime < 5){
+	
+	//If true, this will print ot the console
+	console.log("The ticket price is $" + salePrice + ".");
+	
+//If the age is under 10 OR 55 or older
+}else if(age < 10 || age >= 55){
+	
+	//If under 10 or 55 and older this will print to the console
+	console.log("The ticket price is $" + salePrice + ".");
+}else{
+	
+	//If the other statments are not true, this will print to the console
+	console.log("The ticket price is $" + regPrice + ".");
+}
 
 
 
