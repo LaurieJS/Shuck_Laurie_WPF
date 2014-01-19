@@ -14,5 +14,5 @@ var weight = 280;
 if(weight >= 250){
 	console.log("The competitor qualifies for the hevyweight division.");
 }else{
-	
+	console.log("The competitor needs to gain some weight!");	
 }
