@@ -70,21 +70,22 @@ var actualPass = "president2012";
 
 //Here we will use an if/else statement to print to the console whether or not the user has entered the correct information
 
-//If the username entered matches the correct username AND the password entered matches the password 
+//If the usernames match AND the passwords match 
 if(userName == actualName && userPass == actualPass){
 	
 	//If the usernames and passwords BOTH match this will print to the console
 	console.log("Welcome, " + userName + "!");
 
-//If the username entered does not match the correct username	
+//If the username entered does not match 
 }else if(userName !== actualName){
 	
 	//If the user names do not match this will be printed to the console 
 	console.log("User not found. Try again.");
-	
+
+//If the usernames match, but the passwords do not	
 }else if(userName == actualName && userPass !== actualPass){
 	
-	//If the usernames match, and the paswwords do not, this will print to the console
+	//If the usernames match, and the passwords do not, this will print to the console
 	console.log("Password does not match our records.");
 }
 
