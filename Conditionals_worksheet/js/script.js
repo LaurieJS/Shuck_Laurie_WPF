@@ -56,8 +56,11 @@ if(gasCalc > 200){
 
 //This will determine if a user has the correct username and password
 
+//This variable holds the username entered by the user
+var userEntered = "Ron Paul";
 
-
+//This variable holds the password entered by the user
+var passEntered = "president";
 
 
 
