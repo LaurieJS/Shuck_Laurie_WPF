@@ -40,13 +40,13 @@ var gasCalc = tankCapacity * tankReading * gasEfficiency;
 
 //The following if/else statement will determine if you have enough gas
 
-if(gasCalc < 200){
-	console.log();
+if(gasCalc > 200){
+	console.log("Yes, you can make it without stopping for gas!");
 }else{
-	console.log();
+	console.log("You only have " + gasCalc + " gallons of gas in your tank, better get gas now while you can!");
 }
 
-alert(gasCalc);
+
 
 
 
