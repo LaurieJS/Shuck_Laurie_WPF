@@ -9,10 +9,10 @@
 //This is the variable for the competitor's weight
 var weight = 280;
 
-//This if/else statement will determine if the competitor weighs less than 250 lbs
+//This if/else statement will determine if the competitor weighs 250 lbs or more
 
-if(){
-	
+if(weight >= 250){
+	console.log("The competitor qualifies for the hevyweight division.");
 }else{
 	
 }
