@@ -28,3 +28,5 @@ if(weight >= 250){
 
 //The variable of your car's gas efficiency in MPG
 var gasEfficiency = 10;
+
+var tankReading = 0.20;
