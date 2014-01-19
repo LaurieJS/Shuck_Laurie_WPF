@@ -21,3 +21,7 @@ if(weight >= 250){
 	//If the competitor is less that 250 lbs this will print to the console
 	console.log("The competitor needs to gain some weight!");	
 }
+
+//Last Chance for Gas
+
+//This will determine if you have enough gas to make it to the next gas station
