@@ -22,7 +22,7 @@ if(weight >= 250){
 	console.log("The competitor needs to gain some weight!");	
 }
 
-//Last Chance for Gas
+//Last Chance for Gas (Group 1)
 
 //This code will determine if you have enough gas to make it to the next gas station
 
@@ -50,6 +50,34 @@ if(gasCalc > 200){
 	//If false, this statement will print to the console
 	console.log("You only have " + gasCalc + " gallons of gas in your tank, better get gas now while you can!");
 }
+
+
+//Check the Login (Group 2)
+
+//This will determine if a user has the correct username and password
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
