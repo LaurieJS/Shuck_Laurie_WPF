@@ -10,6 +10,7 @@
 var giftCard = prompt("What is the value of the gift card?");
 
 //This if statement will determine if the prompt was empty
-if(){
-	
+if(giftCard === ""){
+		giftcard = prompt("Please enter the value of your gift card again.");
 }
+alert(giftCard);
