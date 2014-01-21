@@ -4,7 +4,7 @@
 	Conditionals Personal
 */
 
-//Your child received a gift card for Christmas to a major toy store. This code will determine how much you will owe, or have left on the card after the trip to the store.
+//Your child received a gift card for Christmas to a major toy store. This code will determine how much you will owe, or  how much you will have left on the card after the purchase.
 
 //This variable will ask the value of the gift card
 var giftCard = prompt("What is the value of the gift card?");
@@ -42,7 +42,7 @@ var cardCalc = parseFloat(giftCard) - taxCalc;
 if(cardCalc > 0){
 	console.log("Congratulations! The gift card will cover the cost of the toys, and the balance of the card will be $" + cardCalc + ".");
 }else{
-	//This will calculate the positive price
+	//This expression will calculate the positive price that the customer will owe
 	cardCalc *= -1;
 	console.log("Sorry, your gift card will not cover the toy purchase. You will need $" + cardCalc +" more to purchase the toys.");
 }
