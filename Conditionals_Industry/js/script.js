@@ -12,3 +12,5 @@ var elementWidth = prompt("Enter the width of the element in pixels:");
 //This variable will prompt the user to enter the width of the element's container in pixels
 var container = prompt("Enter the width of the element's container in pixels:");
 
+//This else/if code will determine if the user prompts were left empty
+
