@@ -26,10 +26,10 @@ if(container === ""){
 var responsiveCalc = elementWidth / container * 100;
 
 //This variable will hold the message that will print to the console if the element is greater than or equal to 60% of its container
-var bigElement = "This element fills a large portion of its container at " + responsiveCalc + "%.";
+var bigElement = "This element fills a large portion of its container at " + responsiveCalc + "%.\nAdd the following to your CSS:\nwidth : " + responsiveCalc + "%; /* " + elementWidth + " / " + container + " */";
 
 //This variable will hold the message that will print to the console if the element is smaller than 60%
-var smallElement = "This element fills a smaller portion of its container at " + responsiveCalc + "%.";
+var smallElement = "This element fills a smaller portion of its container at " + responsiveCalc + "%.\nAdd the following to your CSS:\nwidth : " + responsiveCalc + "%; /* " + elementWidth + " / " + container + " */";
 
 //This ternary will display to the console the elements width in percentage as well as its size compared to its container
 (responsiveCalc >= 60) ? console.log(bigElement) : console.log(smallElement);
@@ -38,9 +38,3 @@ var smallElement = "This element fills a smaller portion of its container at " +
 
 
 
-
-console.log(elementWidth);
-console.log(container);
-console.log(responsiveCalc);
-console.log(bigElement);
-console.log(smallElement);
