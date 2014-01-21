@@ -33,13 +33,15 @@ if(tax === ""){
 //This code will calculate the cost of the toys with tax
 var taxCalc = parseInt(toyCost) * (tax/100) + parseInt(toyCost);
 
-//This variable will subtract the cost of the toys (with tax) from the giftcard 
+//This variable will subtract the cost of the toys (with tax) from the giftcard
+var cardCalc = parseInt(giftCard) - taxCalc;
 
 
 
 
 
-alert(giftCard);
-alert(toyCost);
-alert(tax);
-alert(taxCalc);
+console.log(giftCard);
+console.log(toyCost);
+console.log(tax);
+console.log(taxCalc);
+console.log(cardCalc);
