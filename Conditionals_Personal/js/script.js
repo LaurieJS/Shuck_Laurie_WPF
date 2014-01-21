@@ -11,15 +11,15 @@ var giftCard = prompt("What is the value of the gift card?");
 
 //This if statement will determine if the giftCard prompt was empty
 if(giftCard === ""){
-		giftcard = prompt("Please enter the value of your gift card again.");
+	 giftCard = prompt("Please enter the value of your gift card again:");
 }
 
 //This variable will determine how much the child wants to spend
 var toyCost = prompt("How much does the child want to spend?");
 
 //This if statement will determine if the toyCost prompt was empty
-if(){
-	
+if(toyCost === ""){
+	 toyCost = prompt("Please enter how much your child would like to spend:");
 }
 alert(giftCard);
 alert(toyCost);
