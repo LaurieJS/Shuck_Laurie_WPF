@@ -19,8 +19,8 @@ if(gumDemand === ""){
 var userGum = prompt("Enter the number of pieces of gum that you have:");
 
 //This if statement will determine if the userGum prompt is empty
-if(){
-	
+if(userGum === ""){
+	 userGum = prompt("I know...you are speechless. Please enter the number of pieces of gum that you have:");
 }
 
 
@@ -29,3 +29,4 @@ if(){
 
 
 console.log(gumDemand);
+console.log(userGum);
