@@ -36,15 +36,22 @@ var taxCalc = parseFloat(toyCost) * (tax/100) + parseFloat(toyCost);
 //This variable will subtract the cost of the toys (including tax) from the giftcard
 var cardCalc = parseFloat(giftCard) - taxCalc;
 
-//This variable will calculate the positive price
-
-//This is an if/else statement that will alert the outcome of the purchase
+//This is an if/else statement that will alert the outcome of their potential purchase
+//If the cardCalc is larger than 0
 if(cardCalc > 0){
-	console.log("Congratulations! The gift card will cover the cost of the toys, and the balance of the card will be $" + cardCalc + ".");
+	
+	//The console will log a congratulatory message
+	var congrats = "Congratulations! The gift card will cover the cost of the toys, and the balance that will be remaining on the card will be $" + cardCalc + ".";
+	console.log(congrats);
+//If cardCalc is not larger than 0
 }else{
+	
 	//This expression will calculate the positive price that the customer will owe
 	cardCalc *= -1;
-	console.log("Sorry, your gift card will not cover the toy purchase. You will need $" + cardCalc +" more to purchase the toys.");
+	
+	//Then, an apologetic message will display on the console
+	var sorry = "Sorry, your gift card will not cover the toy purchase. You will need $" + cardCalc +" more to purchase the toys.";
+	console.log(sorry);
 }
 
 
