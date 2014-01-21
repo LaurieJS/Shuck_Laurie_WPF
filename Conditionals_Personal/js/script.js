@@ -13,4 +13,9 @@ var giftCard = prompt("What is the value of the gift card?");
 if(giftCard === ""){
 		giftcard = prompt("Please enter the value of your gift card again.");
 }
-alert(giftCard);
+
+//This variable will determine how much the child wants to spend
+
+
+
+/*alert(giftCard);*/
