@@ -23,7 +23,7 @@ if(toyCost === ""){
 }
 
 //This variable will determine how much the local sales tax is
-
+var tax = prompt("What is your sales tax?");
 
 
 
