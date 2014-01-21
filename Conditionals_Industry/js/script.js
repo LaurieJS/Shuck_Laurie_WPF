@@ -26,6 +26,12 @@ if(container === ""){
 var responsiveCalc = elementWidth / container * 100;
 
 //This ternary will display to the console the elements width in percentage as well as its size compared to its container
+(responsiveCalc > 75) ? console.log() : console.log();
+
+
+
+
+
 
 console.log(elementWidth);
 console.log(container);
