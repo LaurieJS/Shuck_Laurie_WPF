@@ -6,7 +6,7 @@
 
 //Your child received a gift card for Christmas to a major toy store. This code will determine how much you will owe, or have left on the card after the trip to the store.
 
-//This variable will determine the amount of the gift card
+//This variable will ask the value of the gift card
 var giftCard = prompt("What is the value of the gift card?");
 
 //This if statement will determine if the giftCard prompt was empty
@@ -31,7 +31,7 @@ if(tax === ""){
 }
 
 //This code will calculate the cost of the toys
-var toyCalc = 
+var taxCalc = parseInt(toyCost) * (tax/100) + parseInt(toyCost);
 
 
 
@@ -40,3 +40,4 @@ var toyCalc =
 alert(giftCard);
 alert(toyCost);
 alert(tax);
+alert(taxCalc);
