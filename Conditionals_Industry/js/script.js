@@ -25,6 +25,8 @@ if(container === ""){
 //This variable will make the following calculation: element divided by container (target divided by context) multiplied by 100-to make into a percentage
 var responsiveCalc = elementWidth / container * 100;
 
+//This ternary will display to the console the elements width in percentage as well as its size compared to its container
+
 console.log(elementWidth);
 console.log(container);
 console.log(responsiveCalc);
