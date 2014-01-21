@@ -21,5 +21,16 @@ var toyCost = prompt("How much does the child want to spend?");
 if(toyCost === ""){
 	 toyCost = prompt("Please enter how much your child would like to spend:");
 }
+
+//This variable will determine how much the local sales tax is
+
+
+
+
+
+
+
+
+
 alert(giftCard);
 alert(toyCost);
