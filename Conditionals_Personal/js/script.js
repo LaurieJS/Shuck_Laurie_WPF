@@ -18,6 +18,8 @@ if(giftCard === ""){
 var toyCost = prompt("How much does the child want to spend?");
 
 //This if statement will determine if the toyCost prompt was empty
-
+if(){
+	
+}
 alert(giftCard);
 alert(toyCost);
