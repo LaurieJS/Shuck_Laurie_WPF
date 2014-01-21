@@ -23,7 +23,7 @@ if(toyCost === ""){
 }
 
 //This variable will determine how much the local sales tax is
-var tax = prompt("What is your sales tax?");
+var tax = prompt("Please enter your sales tax amount.\nFor example, if your sales tax is 7% you would enter the number 7.");
 
 //This if statement will determine if the tax prompt is empty
 if(tax === ""){
@@ -31,6 +31,7 @@ if(tax === ""){
 }
 
 //This code will calculate the cost of the toys
+var toyCalc = 
 
 
 
