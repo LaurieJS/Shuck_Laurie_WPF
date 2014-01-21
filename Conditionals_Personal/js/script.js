@@ -15,7 +15,7 @@ if(giftCard === ""){
 }
 
 //This variable will determine how much the child wants to spend
-
+var toyCost = prompt("How much does the child want to spend?");
 
 
 /*alert(giftCard);*/
