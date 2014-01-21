@@ -36,6 +36,13 @@ var taxCalc = parseInt(toyCost) * (tax/100) + parseInt(toyCost);
 //This variable will subtract the cost of the toys (with tax) from the giftcard
 var cardCalc = parseInt(giftCard) - taxCalc;
 
+//This is an if/else statement that will alert the outcome of the purchase
+if(){
+	
+}else{
+	
+}
+
 
 
 
