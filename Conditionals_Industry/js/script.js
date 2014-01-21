@@ -32,7 +32,7 @@ var bigElement = "This element fills a large portion of its container at " + res
 var smallElement = "This element fills a smaller portion of its container at " + responsiveCalc + "%.";
 
 //This ternary will display to the console the elements width in percentage as well as its size compared to its container
-(responsiveCalc >= 60) ? console.log() : console.log();
+(responsiveCalc >= 60) ? console.log(bigElement) : console.log(smallElement);
 
 
 
@@ -43,3 +43,4 @@ console.log(elementWidth);
 console.log(container);
 console.log(responsiveCalc);
 console.log(bigElement);
+console.log(smallElement);
