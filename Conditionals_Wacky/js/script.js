@@ -15,11 +15,7 @@ if(gumDemand === ""){
 	 gumDemand = prompt("Everyone knows that Yeti demands are nerve wracking. Please enter the number of pieces of gum that the Yeti is demanding from you:");
 }
 
-
-
-
-
-
+//This variable will prompt the user to enter the amount of gum they have
 
 
 
