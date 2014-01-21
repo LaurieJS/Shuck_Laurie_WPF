@@ -26,8 +26,8 @@ if(toyCost === ""){
 var tax = prompt("What is your sales tax?");
 
 //This if statement will determine if the tax prompt is empty
-if(){
-	
+if(tax === ""){
+	 tax = prompt("Sorry, please enter the sales tax again:");
 }
 
 
@@ -37,3 +37,4 @@ if(){
 
 alert(giftCard);
 alert(toyCost);
+alert(tax);
