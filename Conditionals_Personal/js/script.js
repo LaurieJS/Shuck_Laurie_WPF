@@ -30,6 +30,7 @@ if(tax === ""){
 	 tax = prompt("Sorry, please enter the sales tax again:");
 }
 
+//This code will calculate the cost of the toys
 
 
 
