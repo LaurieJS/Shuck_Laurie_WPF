@@ -30,8 +30,10 @@ if(tax === ""){
 	 tax = prompt("Sorry, please enter the sales tax again:");
 }
 
-//This code will calculate the cost of the toys
+//This code will calculate the cost of the toys with tax
 var taxCalc = parseInt(toyCost) * (tax/100) + parseInt(toyCost);
+
+//This variable will subtract the cost of the toys (with tax) from the giftcard 
 
 
 
