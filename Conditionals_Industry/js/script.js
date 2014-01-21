@@ -4,7 +4,7 @@
 	Conditionals Industry
 */
 
-/*When creating responsive websites, pixel widths need to be converted to percentage widths for the site to be viewed correctly on different sized device screens. In this calculation, we will use the target/context = result formula to calculate the percentage of an element compared to its container, which will be turned into a percentage.*/
+/*When creating responsive websites, pixel widths need to be converted to percentage widths for the site to be viewed correctly on device screens of different sizes. In this calculation, we will use the target/context = result formula to calculate the percentage of an element compared to its container, which will be turned into a percentage.*/
 
 //This variable will prompt the user to enter the width of their element in pixels (target)
 var elementWidth = prompt("Enter the width of the element in pixels:\nExample: if your element is 960 px enter 960");
@@ -23,8 +23,8 @@ if(container === ""){
 }
 
 //This variable will make the following calculation: element divided by container (target divided by context) multiplied by 100
-
+var responsiveCalc = elementWidth / container * 100;
 
 console.log(elementWidth);
 console.log(container);
-
+console.log(responsiveCalc);
