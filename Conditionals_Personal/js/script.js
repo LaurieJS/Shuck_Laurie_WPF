@@ -40,26 +40,23 @@ var cardCalc = parseFloat(giftCard) - taxCalc;
 //If the cardCalc is larger than 0
 if(cardCalc > 0){
 	
-	//The console will log a congratulatory message
+	//This variable holds the congratulatory message
 	var congrats = "Congratulations! The gift card will cover the cost of the toys, and the balance that will be remaining on the card will be $" + cardCalc + ".";
+	
+	//The following code will display the congratulatory message
+	alert(congrats);
 	console.log(congrats);
+	
 //If cardCalc is not larger than 0
 }else{
 	
 	//This expression will calculate the positive price that the customer will owe
 	cardCalc *= -1;
 	
-	//Then, an apologetic message will display on the console
+	//This variable holds the 
 	var sorry = "Sorry, your gift card will not cover the toy purchase. You will need $" + cardCalc +" more to purchase the toys.";
+	
+	//The following code will display the apology message
+	alert(sorry);
 	console.log(sorry);
 }
-
-
-
-
-
-console.log(giftCard);
-console.log(toyCost);
-console.log(tax);
-console.log(taxCalc);
-console.log(cardCalc);
