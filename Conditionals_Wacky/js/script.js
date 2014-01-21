@@ -12,10 +12,11 @@ var gumDemand = prompt("You are enjoying a peaceful stroll through the park when
 if(gumDemand === ""){
 	
 	 //If true, the user will be prompted to enter the gum demand again
-	 gumDemand = prompt("Everyone knows that Yeti demands are nerve wracking. Please enter the number of pieces of gum that the Yeti is demanding from you:");
+	 gumDemand = prompt("Everyone knows that Yeti demands are nerve-wracking. Please enter the number of pieces of gum that the Yeti is demanding from you:");
 }
 
 //This variable will prompt the user to enter the amount of gum they have
+var userGum = prompt("Enter the number of pieces of gum that you have:");
 
 
 
