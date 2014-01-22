@@ -24,11 +24,11 @@ if(userGum === ""){
 }
 
 //This variable will ask if the user is a fast runner
-var runner = prompt("Can you run fast? Please enter yes or no:");
+var runningSpeed = prompt("Can you run fast? Please enter yes or no:");
 
 //This if statement will determine if the runner prompt is empty
-if(){
-	
+if(runningSpeed === ""){
+	 runningSpeed = prompt("Are you a fast runner? Please enter yes or no:");
 }
 
 
@@ -37,4 +37,4 @@ if(){
 
 console.log(gumDemand);
 console.log(userGum);
-console.log(runner);
+console.log(runningSpeed);
