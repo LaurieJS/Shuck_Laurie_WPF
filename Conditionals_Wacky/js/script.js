@@ -78,11 +78,3 @@ if(gumCalc < 0 && runningSpeed == "no"){
 	 console.log(youWin);
 }
 
-
-
-
-
-console.log(gumDemand);
-console.log(userGum);
-console.log(runningSpeed);
-console.log(gumCalc);
