@@ -38,7 +38,7 @@ var youLose = "Unfortunately, you do not have enough gum, and you are not a fast
 
 var youEscaped = "You ran away and escaped the wrath of the Yeti...this time."
 
-var youWin = "You give the Yeti the gum that he demanded. He proceeds to make you a balloon animal from the gum to take home to your kids. He asks if you will be back next week, and you say that you will be back next week and that you will bring your kids."
+var youWin = "You give the Yeti the gum that he demanded. He proceeds to make you a balloon animal from the gum to take home to your kids."
 
 //This else/if statement will determine the outcome of the encounter
 
@@ -52,8 +52,6 @@ if(gumCalc < 0 && runningSpeed == "no"){
 }else if(gumCalc >= 0){
 	 alert(youWin);
 	 console.log(youWin);
-}else{
-	
 }
 
 
