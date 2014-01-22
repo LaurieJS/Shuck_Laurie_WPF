@@ -23,6 +23,9 @@ if(userGum === ""){
 	 userGum = prompt("I know...you are speechless. Please enter the number of pieces of gum that you have:");
 }
 
+//This variable will ask if the user is a fast runner
+var runner = prompt("Can you run fast? Please enter yes or no:");
+
 
 
 
@@ -30,3 +33,4 @@ if(userGum === ""){
 
 console.log(gumDemand);
 console.log(userGum);
+console.log(runner);
