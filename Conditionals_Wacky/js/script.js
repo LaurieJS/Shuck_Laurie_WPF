@@ -6,6 +6,7 @@
 
 /*You are enjoying a relaxing stroll through the park and are confronted by a Yeti. He demands gum from you, and if you don't have enough, you will suffer the wrath of the Yeti. This calculation will determine if you have enough gum to meet the Yeti's demands.*/
 
+//This variable holds the prompt that is asking how many pieces of gum the Yeti is demanding from the user
 var gumDemand = prompt("You are enjoying a peaceful stroll through the park when you are suddenly confronted by a Yeti. He demands gum from you and if you do not have enough gum to meet his demands then you will suffer the wrath of the Yeti.\nEnter the number of pieces of gum that he is demanding from you:");
 
 //This if statement will determine if the userGum prompt is empty
@@ -20,6 +21,8 @@ var userGum = prompt("Enter the number of pieces of gum that you have:");
 
 //This if statement will determine if the userGum prompt is empty
 if(userGum === ""){
+	 
+	 //If true, the user will be prompted to enter the number of pieces of gum the Yeti is demanding
 	 userGum = prompt("I know...you are speechless. Please enter the number of pieces of gum that you have:");
 }
 
@@ -28,6 +31,8 @@ var runningSpeed = prompt("Can you run fast? Please enter yes or no:");
 
 //This if statement will determine if the runner prompt is empty
 if(runningSpeed === ""){
+	
+	 //If true, this will prompt the user to enter if they are a fast runner
 	 runningSpeed = prompt("Are you a fast runner? Please enter yes or no:");
 }
 
@@ -53,11 +58,23 @@ if(gumCalc < 0 && runningSpeed == "no"){
 	 
 	  //If true, the loss will also print to the console
 	 console.log(youLose);
+	 
+ //Or, if the gumCalc is less than zero, and they can run fast
 }else if(gumCalc < 0 && runningSpeed == "yes"){
+	
+	 //If true, the user will be alerted of their escape
 	 alert(youEscaped);
+	 
+	 //If true, an escape message will appear on the console
 	 console.log(youEscaped);
+	 
+//Or, if the user gumCalc is greater than zero
 }else if(gumCalc >= 0){
+	
+	 //If true, the winning text will be alerted to the user
 	 alert(youWin);
+	 
+	 //If true, the winning text will be printed to the console
 	 console.log(youWin);
 }
 
