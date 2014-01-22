@@ -34,17 +34,24 @@ if(runningSpeed === ""){
 //This variable will subtract the amount of gum that the user has from the Yeti's gum demand
 var gumCalc = userGum - gumDemand;
 
+//This variable holds the text that will print to the console if the user does not have enough gum and not a fast runner
 var youLose = "Unfortunately, you do not have enough gum, and you are not a fast runner. This causes the Yeti to roar very loud directly in your face. You wish that you had enough gum because he has horrible halitosis. Sorry that you had to suffer the wrath of the Yeti. Maybe next time you will have more gum."
 
+//This variable holds the text that will print to the console if the user doesn't have enough gum, but can run fast
 var youEscaped = "You ran away and escaped the wrath of the Yeti...this time."
 
+//This variable holds the text that will print to the console if the user has enough gum
 var youWin = "You give the Yeti the gum that he demanded. He proceeds to make you a balloon animal from the gum to take home to your kids."
 
 //This else/if statement will determine the outcome of the encounter
 
 //If the gumCalculation is less than zero, AND the user is a not a fast runner
 if(gumCalc < 0 && runningSpeed == "no"){
+	
+	 //If true, the user will be alerted of their loss
 	 alert(youLose);
+	 
+	  //If true, the loss will also print to the console
 	 console.log(youLose);
 }else if(gumCalc < 0 && runningSpeed == "yes"){
 	 alert(youEscaped);
