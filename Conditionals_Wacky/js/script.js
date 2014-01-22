@@ -26,6 +26,10 @@ if(userGum === ""){
 //This variable will ask if the user is a fast runner
 var runner = prompt("Can you run fast? Please enter yes or no:");
 
+//This if statement will determine if the runner prompt is empty
+if(){
+	
+}
 
 
 
