@@ -31,6 +31,9 @@ if(runningSpeed === ""){
 	 runningSpeed = prompt("Are you a fast runner? Please enter yes or no:");
 }
 
+//This variable will subtract the amount of gum that the user has from the Yeti's gum demand
+var gumCalc = userGum - gumDemand;
+
 
 
 
@@ -38,3 +41,4 @@ if(runningSpeed === ""){
 console.log(gumDemand);
 console.log(userGum);
 console.log(runningSpeed);
+console.log(gumCalc);
