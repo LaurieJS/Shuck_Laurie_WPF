@@ -38,10 +38,10 @@ var gumCalc = userGum - gumDemand;
 
 //If the gumCalculation is less than zero, AND the user is a not a fast runner
 if(gumCalc < 0 && runningSpeed === false){
-	 console.log("Unfortunately, you do not have enough gum, and you are not a fast runner. This causes the to Yeti roar really loud directly in your face. You wish that you had enough gum because he has horrible halitosis.");
+	 console.log("Unfortunately, you do not have enough gum, and you are not a fast runner. This causes the Yeti to roar very loud directly in your face. You wish that you had enough gum because he has horrible halitosis. Sorry, you had to suffer the wrath of the Yeti. Maybe next time you will have more gum.");
 }else if(gumCalc < 0 && runningSpeed === true){
 	 console.log("You ran away and escaped the wrath of the Yeti...this time.");
-}else if(){
+}else if(gumCalc >= 0){
 	
 }else{
 	
