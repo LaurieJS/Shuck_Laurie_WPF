@@ -34,7 +34,16 @@ if(runningSpeed === ""){
 //This variable will subtract the amount of gum that the user has from the Yeti's gum demand
 var gumCalc = userGum - gumDemand;
 
-//This else/if statement will determine the outcome of your encounter
+//This else/if statement will determine the outcome of the encounter
+if(){
+	
+}else if(){
+	
+}else if(){
+	
+}else{
+	
+}
 
 
 
