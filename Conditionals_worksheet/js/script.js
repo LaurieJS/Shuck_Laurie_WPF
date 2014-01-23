@@ -6,7 +6,7 @@
 
 //Stuff Your Face 
 
-//This is the variable for the competitor's weight
+//This is the variable that holds the competitor's weight
 var weight = 280;
 
 //This if/else statement will determine if the competitor weighs 250 lbs or more, and print a result to the console
@@ -32,7 +32,7 @@ var gasEfficiency = 10;
 //This variable holds the amount of gas in the tank in percentage
 var tankReading = 0.20;
 
-//This is the variable of the gas tank's capacity
+//This is the variable holding the gas tank's capacity
 var tankCapacity = 30;
 
 //This will calculate how many miles of gas remaining
@@ -45,6 +45,8 @@ if(gasCalc > 200){
 	
 	//If true, this statement will print to the console
 	console.log("Yes, you can make it without stopping for gas!");
+	
+//Or	
 }else{
 	
 	//If false, this statement will print to the console
