@@ -47,7 +47,7 @@ var cardCalc = parseFloat(giftCard) - taxCalc;
 if(cardCalc > 0){
 	
 	//This variable holds the congratulatory message
-	var congrats = "Congratulations! The gift card will cover the cost of the toys, and the balance that will be remaining on the card will be $" + cardCalc + ".";
+	var congrats = "Congratulations! The gift card will cover the cost of the toys and the balance that will be remaining on the card will be $" + cardCalc + ".";
 	
 	//The following code will display the congratulatory message in an alert box and to the console
 	alert(congrats);
