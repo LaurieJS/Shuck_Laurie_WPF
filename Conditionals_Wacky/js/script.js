@@ -19,6 +19,7 @@ if(gumDemand === ""){
 //This variable will prompt the user to enter the amount of gum they have
 var userGum = prompt("Enter the number of pieces of gum that you have:");
 
+
 //This if statement will determine if the userGum prompt is empty
 if(userGum === ""){
 	 
@@ -40,13 +41,17 @@ if(runningSpeed === ""){
 var gumCalc = userGum - gumDemand;
 
 //This variable holds the text that will print to the console if the user does not have enough gum and not a fast runner
-var youLose = "Unfortunately, you do not have enough gum, and you are not a fast runner. This causes the Yeti to roar very loud directly in your face. You wish that you had enough gum because he has horrible breath. Sorry that you had to suffer the wrath of the Yeti. Maybe next time you will have more gum."
+var youLose = "Unfortunately, you do not have enough gum, and you are not a fast runner. This causes the Yeti to roar very loud directly in your face. You wish that you had enough gum because he has horrible breath. Sorry that you had to suffer the wrath of the Yeti. Maybe next time you will have more gum.";
 
 //This variable holds the text that will print to the console if the user doesn't have enough gum, but can run fast
-var youEscaped = "You ran away and escaped the wrath of the Yeti...this time."
+var youEscaped = "You ran away and escaped the wrath of the Yeti...this time.";
 
 //This variable holds the text that will print to the console if the user has enough gum
-var youWin = "You give the Yeti the gum that he demanded. He proceeds to make you a balloon animal from the gum to take home to your kids."
+var youWin = "You give the Yeti the gum that he demanded. He proceeds to make you a balloon animal from the gum to take home to your kids.";
+
+//This variable holds the code that will print to the console if they left the prompts blank or the Yeti did not want any gum
+var luckyYou = "You are very lucky. Either the Yeti did not want any gum, or you avoided the Yeti completely.";
+
 
 //This else/if statement will determine the outcome of the encounter
 
@@ -69,12 +74,20 @@ if(gumCalc < 0 && runningSpeed == "no"){
 	 console.log(youEscaped);
 	 
 //Or, if the user gumCalc is greater than zero
-}else if(gumCalc >= 0){
+}else if(gumCalc >= 0 && gumDemand != "" && gumDemand != 0 && userGum != ""){
 	
 	 //If true, the winning text will be alerted to the user
 	 alert(youWin);
 	 
 	 //If true, the winning text will be printed to the console
 	 console.log(youWin);
+	 
+}else{
+	
+	 //If the user entered 0 for the gum demand or the prompts were left empty this will alert the user of their luck
+	 alert(luckyYou);
+	 
+	 //If the user entered 0 for the gum demand or the prompts were left empty this will print the luckyYou message to the console
+	 console.log(luckyYou);
 }
 
