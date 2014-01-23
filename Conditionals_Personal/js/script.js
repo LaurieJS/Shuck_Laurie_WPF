@@ -43,8 +43,8 @@ var taxCalc = parseFloat(toyCost) * (tax/100) + parseFloat(toyCost);
 var cardCalc = parseFloat(giftCard) - taxCalc;
 
 //This is an if/else statement that will alert the outcome of their potential purchase
-//If the cardCalc is larger than 0
-if(cardCalc > 0){
+//If the cardCalc is greater than or equal to 0
+if(cardCalc >= 0){
 	
 	//This variable holds the congratulatory message
 	var congrats = "Congratulations! The gift card will cover the cost of the toys and the balance that will be remaining on the card will be $" + cardCalc + ".";
@@ -53,16 +53,38 @@ if(cardCalc > 0){
 	alert(congrats);
 	console.log(congrats);
 	
-//If cardCalc is not larger than 0
-}else{
+//If cardCalc is not larger than 0 and the prompts were not left empty
+}else if(cardCalc < 0 && giftCard != "" && toyCost != "" && tax != ""){
 	
 	//This expression will calculate the positive price that the customer will owe
 	cardCalc *= -1;
 	
 	//This variable holds the apology message
-	var sorry = "Sorry, your gift card will not cover the toy purchase. You will need $" + cardCalc +" more to purchase the toys.";
+	var sorry = "Sorry, your gift card will not cover the toy purchase. You will need $" + cardCalc + " more to purchase the toys.";
 	
-	//The following code will display the apology message in an alert box and to the console
+	//The following code will display the apology message in an alert box 
 	alert(sorry);
+	
+	//The following code will display the apology message to the console
 	console.log(sorry);
+	
+}else{
+	
+	//This variable will tell the user to go back and enter the proper values if they left the prompts empty
+	var notSure = "Please go back and enter the proper values. Thanks!";
+	
+	//This will alert the user that they need to go back and fill in the prompts
+	alert(notSure);
+	
+	//This will print to the console that the user needs to go back and fill in the prompts
+	console.log(notSure);
 }
+
+
+
+
+
+
+
+
+
