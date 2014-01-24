@@ -9,6 +9,7 @@
 //This variable will ask the value of the gift card
 var giftCard = prompt("What is the value of the gift card?");
 
+
 //This if statement will determine if the giftCard prompt was empty
 if(giftCard === ""){
 	
@@ -16,8 +17,10 @@ if(giftCard === ""){
 	 giftCard = prompt("Please enter the value of your gift card again:");
 }
 
+
 //This variable will determine how much the child wants to spend
 var toyCost = prompt("How much does the child want to spend?");
+
 
 //This if statement will determine if the toyCost prompt was empty
 if(toyCost === ""){
@@ -26,8 +29,10 @@ if(toyCost === ""){
 	 toyCost = prompt("Please enter how much your child would like to spend:");
 }
 
+
 //This variable will determine how much the local sales tax is
 var tax = prompt("Please enter your sales tax amount.\nFor example, if your sales tax is 7% you would enter the number 7.");
+
 
 //This if statement will determine if the tax prompt is empty
 if(tax === ""){
@@ -36,27 +41,34 @@ if(tax === ""){
 	 tax = prompt("Sorry, please enter the sales tax again:");
 }
 
-//This variable will calculate the cost of the toys including tax
+
+//This variable will multiply the toy cost, by the tax amount which is divided by 100), and then add that total to the original toy cost to find out how much the toys cost after tax
 var taxCalc = parseFloat(toyCost) * (tax/100) + parseFloat(toyCost);
 
 //This variable will subtract the cost of the toys (including tax) from the giftcard
 var cardCalc = parseFloat(giftCard) - taxCalc;
 
-//This is an if/else statement that will alert the outcome of their potential purchase
+
+
+//This is an if/else if/else statement that will alert the outcome of their potential purchase
+
 //If the cardCalc is greater than or equal to 0
 if(cardCalc >= 0){
 	
 	//This variable holds the congratulatory message
 	var congrats = "Congratulations! The gift card will cover the cost of the toys and the balance that will be remaining on the card will be $" + cardCalc + ".";
 	
-	//The following code will display the congratulatory message in an alert box and to the console
+	//And, if true the following code will display the congratulatory message in an alert box
 	alert(congrats);
+	
+	//And, if true the following code will log the congratulatory message to the console
 	console.log(congrats);
 	
-//If cardCalc is not larger than 0 and the prompts were not left empty
+	
+//If cardCalc is not larger than 0 AND the prompts were not left empty
 }else if(cardCalc < 0 && giftCard != "" && toyCost != "" && tax != ""){
 	
-	//This expression will calculate the positive price that the customer will owe
+	//This expression will calculate the positive price that the customer will owe by multiplying it by -1
 	cardCalc *= -1;
 	
 	//This variable holds the apology message
@@ -68,6 +80,8 @@ if(cardCalc >= 0){
 	//The following code will display the apology message to the console
 	console.log(sorry);
 	
+
+//If the prompts were left empty then the following code will run	
 }else{
 	
 	//This variable will tell the user to go back and enter the proper values if they left the prompts empty
