@@ -35,6 +35,13 @@ var bigElement = "This element fills a larger portion of its container at " + re
 //This variable will hold the message that will print to the console if the element is less than 50%
 var smallElement = "This element fills a smaller portion of its container at " + responsiveCalc + "%.\nAdd the following to your CSS:\nwidth : " + responsiveCalc + "%; /* " + elementWidth + " / " + container + " */";
 
+//This if statement will attempt to get the user to go back and fill in the prompts again properly if they were left empty or entered 0's
+if(elementWidth === "" || container === "" || elementWidth == 0 || container == 0){
+	
+	//If true, this code will alert the user to fill in the prompts or their code will be unusable
+	alert("Please go back and fill in the correct values, or you will receive unusable code. Thanks!\nP.S. Just in case you did not know, if you entered the number 0 as a pixel width the percentage is 0%.");
+}
+
 //This ternary will alert the user of the element's width in percentage as well as its size compared to its container
 (responsiveCalc >= 50) ? alert(bigElement) : alert(smallElement);
 
