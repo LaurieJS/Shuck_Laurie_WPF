@@ -198,15 +198,21 @@ function calcArea(w, h){
 }
 dogYears(8);*/
 
-var total = calcArea(20, 20);
+/*var total = calcArea(20, 20);
 
 function calcArea(w, h){
 	var area = w * h;
 	return area;//this spits the info out
 }
-console.log(total);
+console.log(total);*/
 
+var calcArea = function(width, height){
+	var area = width * height;
+	return area;
+}
 
+var answer = calcArea(80, 27);
+alert(answer);
 
 
 
