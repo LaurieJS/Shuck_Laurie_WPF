@@ -153,8 +153,8 @@ if(iPhonePrice < budget || wonLottery === true){
 */
 //(gpa > 2.0) ? console.log("You can graduate!") : console.log("GPA too low!");
 
-var age = 11;
-var book;
+//var age = 11;
+//var book;
 
 /*if(age < 10){
 	book = "Green Eggs and Ham";
@@ -163,9 +163,26 @@ var book;
 }
 console.log(book);*/
 
-book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
-console.log(book);
+/*book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);*/
 
+function outputMsg(){
+	console.log("Hello, World!");
+}
+
+function calcArea(){
+	var width = 20;
+	var height = 30;
+	var area = width * height;
+	alert(area);
+	console.log(area);
+}
+
+
+
+
+calcArea();
+outputMsg();
 
 
 
