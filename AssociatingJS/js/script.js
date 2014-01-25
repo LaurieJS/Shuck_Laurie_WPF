@@ -214,13 +214,20 @@ console.log(total);*/
 var answer = calcArea(80, 27);
 alert(answer);*/
 
-var b = 10;//sets up the index
+/*var b = 10;//sets up the index
 
 while( b > 0){//checks the condition
 	console.log(b + " kegs on the wall");
 	b--;//increments or decrements the index
-}
+}*/
 
+var c = 12;
+
+do{
+	console.log(c + " kegs on the wall");//this will run
+	c--; 
+}
+while(c > 0);//as long as this condition is met
 
 
 
