@@ -191,13 +191,20 @@ function calcArea(w, h){
 		console.log(area);
 }*/
 
-function dogYears(age){
+/*function dogYears(age){
 	//var age= 4;
 	var dogYears = age * 7;
 	console.log("Sparky is " + dogYears + " years old.");
 }
-dogYears(8);
+dogYears(8);*/
 
+var total = calcArea(20, 20);
+
+function calcArea(w, h){
+	var area = w * h;
+	return area;//this spits the info out
+}
+console.log(total);
 
 
 
