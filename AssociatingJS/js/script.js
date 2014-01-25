@@ -166,9 +166,11 @@ console.log(book);*/
 /*book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
 console.log(book);*/
 
-function outputMsg(){
+/*function outputMsg(){
 	console.log("Hello, World!");
 }
+
+var width = 5; 
 
 function calcArea(){
 	var width = 20;
@@ -177,16 +179,24 @@ function calcArea(){
 	alert(area);
 	console.log(area);
 }
-
-
-
-
+console.log(width);
 calcArea();
-outputMsg();
+outputMsg();*/
+/*
+calcArea(30, 20);
 
+function calcArea(w, h){
+	  var area = w * h;
+		alert(area);
+		console.log(area);
+}*/
 
-
-
+function dogYears(age){
+	//var age= 4;
+	var dogYears = age * 7;
+	console.log("Sparky is " + dogYears + " years old.");
+}
+dogYears(8);
 
 
 
