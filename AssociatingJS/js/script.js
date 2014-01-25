@@ -206,13 +206,20 @@ function calcArea(w, h){
 }
 console.log(total);*/
 
-var calcArea = function(width, height){
+/*var calcArea = function(width, height){
 	var area = width * height;
 	return area;
 }
 
 var answer = calcArea(80, 27);
-alert(answer);
+alert(answer);*/
+
+var b = 10;//sets up the index
+
+while( b > 0){//checks the condition
+	console.log(b + " kegs on the wall");
+	b--;//increments or decrements the index
+}
 
 
 
