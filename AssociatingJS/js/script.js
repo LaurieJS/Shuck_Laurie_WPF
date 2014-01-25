@@ -221,13 +221,41 @@ while( b > 0){//checks the condition
 	b--;//increments or decrements the index
 }*/
 
-var c = 12;
+/*var c = 12;
 
 do{
 	console.log(c + " kegs on the wall");//this will run
 	c--; 
 }
-while(c > 0);//as long as this condition is met
+while(c > 0);//as long as this condition is met*/
+
+for(var i = 7; i > 0; i--){
+	console.log(i + " kegs on the wall.");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
