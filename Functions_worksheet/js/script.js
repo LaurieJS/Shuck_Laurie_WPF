@@ -36,7 +36,7 @@ var animalWeight = 35;
 var beeStings = 8.666666667; 
 
 //This variable holds the calc info
-var liveOrDie = calcStings(animalWeight, beeStings);
+var badOutcome = calcStings(animalWeight, beeStings);
 
 //This function will calculate animalWeight times beeStings to see how many bee stings will kill the animal
 function calcStings(animalWeight, beeStings){
@@ -48,7 +48,7 @@ function calcStings(animalWeight, beeStings){
 
 console.log(animalWeight);
 console.log(beeStings);
-console.log("It takes " + liveOrDie + " bee stings to kill this animal.");
+console.log("It takes " + badOutcome + " bee stings to kill this animal.");
 
 
 
