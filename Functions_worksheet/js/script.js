@@ -57,6 +57,8 @@ function calcStings(animalWeight, beeStings){
 console.log(animalWeight);
 console.log(beeStings);
 */
+
+//This will to the print the how many stings would kill the animal
 console.log("It takes " + badOutcome + " bee stings to kill this animal.");
 
 
