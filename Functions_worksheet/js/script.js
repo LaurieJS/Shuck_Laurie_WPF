@@ -17,6 +17,7 @@ var circumference = calcCircumference(radius, pi);
 
 //This is the function that will calculate the circumference
 function calcCircumference(radius, pi){
+	
 	return radius * 2 * pi;
 }
 
@@ -25,7 +26,7 @@ function calcCircumference(radius, pi){
 console.log(radius);
 console.log(pi);
 */
-console.log(circumference);
+console.log("The circumference of the circle is " + circumference + ".");
 
 //Stung!!
 
@@ -44,10 +45,11 @@ function calcStings(animalWeight, beeStings){
 }
 
 
-
-
+//The following console.logs are for my benefit to test the code
+/*
 console.log(animalWeight);
 console.log(beeStings);
+*/
 console.log("It takes " + badOutcome + " bee stings to kill this animal.");
 
 
