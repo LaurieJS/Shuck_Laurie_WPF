@@ -44,12 +44,14 @@ var beeStings = 8.666666667;
 //This variable holds the calc info
 var badOutcome = calcStings(animalWeight, beeStings);
 
-//This function will calculate animalWeight times beeStings to see how many bee stings will kill the animal
+
+
+//This function will calculate animalWeight multiplied by beeStings to see how many bee stings will kill the animal
 function calcStings(animalWeight, beeStings){
 	
 	  //This will return the animals weight multiplied by bee stings
 	  return animalWeight * beeStings;
-}
+}//The end of the calcStings function
 
 
 //The following console.logs are for my benefit to test the code
