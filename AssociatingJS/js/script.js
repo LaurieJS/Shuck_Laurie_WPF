@@ -1,3 +1,9 @@
+/*
+		Laurie Shuck
+		Associating JS
+		Web Programming Fundamentals
+		January 2014
+*/
 //alert("This is in the js file");
 
 //var yearBorn = 1955;
@@ -229,9 +235,9 @@ do{
 }
 while(c > 0);//as long as this condition is met*/
 
-for(var i = 7; i > 0; i--){
+/*for(var i = 7; i > 0; i--){
 	console.log(i + " kegs on the wall.");
-}
+}*/
 
 
 
