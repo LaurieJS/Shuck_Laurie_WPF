@@ -32,6 +32,8 @@ console.log(circumference);
 //This variable will hold the animal's weight
 var animalWeight = 35;
 
+//This will hold the variable holding the bee stings per pound that would kill the animal
+
 
 
 
