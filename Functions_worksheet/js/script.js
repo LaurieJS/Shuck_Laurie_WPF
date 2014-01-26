@@ -39,6 +39,10 @@ var beeStings = 8.666666667;
 
 
 //This is the function that will calculate and return the answer
+function calcStings(){
+	
+	
+}
 
 
 
