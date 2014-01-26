@@ -30,7 +30,12 @@ console.log(circumference);
 //Stung!!
 
 //This variable will hold the animal's weight
+var animalWeight = 35;
 
+
+
+
+console.log(animalWeight);
 
 
 
