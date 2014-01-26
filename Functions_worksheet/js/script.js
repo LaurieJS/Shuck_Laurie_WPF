@@ -38,10 +38,9 @@ var beeStings = 8.666666667;
 //This variable holds the calc info
 
 
-//This is the function that will calculate and return the answer
-function calcStings(){
-	
-	
+//This function will calculate animalWeight times beeStings to see if the animal will live or die
+function calcStings(animalWeight, beeStings){
+	  return animalWeight * beeStings;
 }
 
 
