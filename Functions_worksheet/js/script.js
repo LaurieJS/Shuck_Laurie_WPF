@@ -15,12 +15,14 @@ var pi = Math.PI;
 //This variable holds the result of the function calcCircumference
 var circumference = calcCircumference(radius, pi);
 
+
 //This function will calculate the circumference of a circle
 function calcCircumference(radius, pi){
 	
 	//This will return the answer of radius times 2 times pi
 	return radius * 2 * pi;
-}
+}//End of the calcCircumference function
+
 
 //The extra console.logs are for my benefit to test the code
 /*
@@ -44,6 +46,8 @@ var badOutcome = calcStings(animalWeight, beeStings);
 
 //This function will calculate animalWeight times beeStings to see how many bee stings will kill the animal
 function calcStings(animalWeight, beeStings){
+	
+	  //This will return the animals weight multiplied by bee stings
 	  return animalWeight * beeStings;
 }
 
