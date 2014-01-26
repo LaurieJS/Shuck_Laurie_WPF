@@ -6,18 +6,19 @@
 
 //Circumference 
 
-//This variable will hold the radius of a circle
+//This variable holds the radius of a circle
 var radius = 2;
 
 //This variable holds the value of pi
 var pi = Math.PI;
 
-//This is the variable that holds the circumference variable
+//This variable holds the result of the function calcCircumference
 var circumference = calcCircumference(radius, pi);
 
-//This is the function that will calculate the circumference
+//This function will calculate the circumference of a circle
 function calcCircumference(radius, pi){
 	
+	//This will return the answer of radius times 2 times pi
 	return radius * 2 * pi;
 }
 
@@ -30,7 +31,7 @@ console.log("The circumference of the circle is " + circumference + ".");
 
 //Stung!!
 
-//This variable will hold the animal's weight
+//This variable will hold the animal's weight in pounds
 var animalWeight = 35;
 
 //This variable holds the bee stings per pound that would kill the animal
