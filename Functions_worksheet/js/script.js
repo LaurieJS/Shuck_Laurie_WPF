@@ -27,6 +27,8 @@ function calcCircumference(radius, pi){
 console.log(radius);
 console.log(pi);
 */
+
+//This will print to the console the result of the circumference of a circle
 console.log("The circumference of the circle is " + circumference + ".");
 
 //Stung!!
