@@ -28,3 +28,16 @@ console.log(pi);
 console.log(circumference);
 
 //Stung!!
+
+//This variable will hold the animal's weight
+
+
+
+
+
+
+
+
+
+
+
