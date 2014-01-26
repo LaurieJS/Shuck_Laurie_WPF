@@ -38,6 +38,9 @@ var beeStings = 8.666666667;
 //This variable holds the calc info
 
 
+//This is the function that will calculate and return the answer
+
+
 
 
 console.log(animalWeight);
