@@ -13,6 +13,10 @@ var radius = 7;
 var pi = Math.PI;
 
 
+//This is the function that will calculate the circumference
+function calcCircumference(radius, pi){
+	return radius * 2 * pi;
+}
 
 console.log(radius);
 console.log(pi);
