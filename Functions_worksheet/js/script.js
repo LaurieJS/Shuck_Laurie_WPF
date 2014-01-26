@@ -7,7 +7,7 @@
 //Circumference 
 
 //This variable will hold the radius of a circle
-var radius = 7;
+var radius = 2;
 
 //This variable holds the value of pi
 var pi = Math.PI;
@@ -26,3 +26,5 @@ console.log(radius);
 console.log(pi);
 */
 console.log(circumference);
+
+//Stung!!
