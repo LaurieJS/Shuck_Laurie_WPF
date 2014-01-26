@@ -35,6 +35,8 @@ var animalWeight = 35;
 //This variable holds the bee stings per pound that would kill the animal
 var beeStings = 8.666666667; 
 
+//This variable holds the calc info
+
 
 
 
