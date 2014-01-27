@@ -19,6 +19,8 @@ while(gold == ""){
 
 var notes = prompt("How many Federal Reserve Notes do you have? Enter the number of notes that you have and not their face value.\nExample: if you have four $20 dollar bills, you would enter the number 4.");
 
-while(){
+while(notes == ""){
+	
+		notes = prompt("Please enter the number of Federal Reserve Notes that you have:");
 	
 }
