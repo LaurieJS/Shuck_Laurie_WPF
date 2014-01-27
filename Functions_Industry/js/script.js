@@ -10,6 +10,12 @@
 var originalWidth = prompt("Please enter the width of the image in pixels:");
 
 
+//This while loop will keep prompting the user to enter the width until they fill in the prompt
+while(originalWidth == "" || originalWidth == 0){
+	 	originalWidth = prompt("To continue with the calculation, the width of the image is required.\nPlease enter the numerical value of the image's width:");
+}
+
+
 
 
 console.log(originalWidth);
