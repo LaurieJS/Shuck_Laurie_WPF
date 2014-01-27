@@ -21,6 +21,10 @@ while(originalWidth == "" || originalWidth == 0){
 var originalHeight = prompt("Please enter the height of the image in pixels:");
 
 
+//This while loop will keep prompting the user to enter the original height of the image
+while(originalHeight == "" || originalHeight == 0){
+	 	originalHeight = prompt("To continue with the calculation, the height of the image is required.\nPlease enter the numerical value of the image's height:");
+}
 
 
 
