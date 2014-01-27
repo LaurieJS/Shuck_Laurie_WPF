@@ -12,5 +12,13 @@
 
 var gold = prompt("How many pieces of gold were you wearing when you magically got sucked into the Inner Earth?");
 
+while(gold == ""){
+	
+		gold = prompt("Please enter the number of pieces of gold you were wearing when you were magically sucked into the Inner Earth:");
+}
 
 var notes = prompt("How many Federal Reserve Notes do you have? Enter the number of notes that you have and not their face value.\nExample: if you have four $20 dollar bills, you would enter the number 4.");
+
+while(){
+	
+}
