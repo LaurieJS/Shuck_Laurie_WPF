@@ -78,6 +78,18 @@ var widthMessage = "Your original image width is " + originalWidth + " pixels an
 
 
 
+//This function calculates the information using the data gathered when the user's answer is height
+function calculateHeight(originalWidth, newHeight, originalHeight){
+	
+	 		return originalWidth * newHeight / originalHeight;
+			
+}
+
+
+
+
+
+
 
 
 console.log(originalWidth);
@@ -85,3 +97,4 @@ console.log(originalHeight);
 console.log(userChoice);
 console.log(newWidth);
 console.log(newHeight);
+console.log(widthTotal);
