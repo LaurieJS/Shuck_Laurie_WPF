@@ -79,7 +79,7 @@ function calculateWidth(originalWidth, originalHeight, newWidth){
 //This variable will hold the answer returned from the width function
 var widthTotal = calculateWidth(originalWidth, originalHeight, newWidth);
 
-//This variable will hold the message that will print to the console
+//This variable will hold the message that will print to the console if the user chose width
 var widthMessage = "Your original image width is " + originalWidth + " pixels and the height is " + originalHeight + " pixels. When you change the width to " + newWidth + " pixels the new height will be " + widthTotal + " pixels.";
 
 
@@ -95,7 +95,9 @@ function calculateHeight(originalWidth, newHeight, originalHeight){
 
 
 //This variable will hold the answer returned from the height function
-var heightTotal = calculateHeight(originalWidth, newHeight, originalHeight); 
+var heightTotal = calculateHeight(originalWidth, newHeight, originalHeight);
+
+//This variable holds the message that will print to the console if they chose height 
 var heightMessage = "Your original image width is " + originalWidth + " pixels and the height is " + originalHeight + " pixels. When you change the height to " + newHeight + " pixels the new width will be " + heightTotal + " pixels.";
 
 
