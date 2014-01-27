@@ -24,23 +24,32 @@ while(cerealBox == ""){
 var bowlsPerBox = prompt("On average, how many bowls of cereal does each box make?");
 
 
-
-while(bowlsPerBox == "" || bowlsPerBox == 0){
+//While the bowlsPerBox prompt is empty the user will be prompted to enter the number of bowls of cereal
+while(bowlsPerBox == ""){
 	
-		//This will prompt the user to answer the number bowls of ceral per box
+		//This will prompt the user to answer the number bowls of cereal per box
 		bowlsPerBox = prompt("To continue with the calculation, the number of bowls each box makes is required:");
 	
 }
 
+
 //This variable holds the number of weeks in a year
 var weeksYear = 52;
 
-function calculateCereal(){
+
+
+
+//This function will calculate the amount of bowls of cereal eaten in a year
+function calculateCereal(cerealBox, bowlsPerBox, weeksYear){
+	
+		//This return statement multiplies the boxes of cereal by the amount of bowls in each box, multiplied by the number of weeks in a year
 		return cerealBox * bowlsPerBox * weeksYear;
 }
 
+
+
 //This variable collects the information from the function calculation
-var cerealTotal = calculateCereal();
+var cerealTotal = calculateCereal(cerealBox, bowlsPerBox, weeksYear);
 
 //This variable holds the message that will print to the console adn be alerted to the user
 var cerealMessage = "In one week, your household eats " + cerealBox + " boxes of cereal, and each box makes " + bowlsPerBox + " bowls of cereal. In one year, your household will eat " + cerealTotal + " bowls of cereal.";
