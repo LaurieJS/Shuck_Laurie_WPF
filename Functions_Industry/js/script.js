@@ -31,6 +31,10 @@ while(originalHeight == "" || originalHeight == 0){
 var userChoice = prompt("Will you be entering the new width that you would like the image to be, or the new height that you would like the image to be?\nPlease type in 'width' or 'height':");
 
 
+//This while loop will keep prompting the user to enter if they have a new height or a new width
+while(userChoice == "" || userChoice == 0){
+	 	userChoice = prompt("To continue with the calculation 'width' or 'height' must be entered. Please type in your answer:");
+}
 
 
 
