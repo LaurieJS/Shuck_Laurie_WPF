@@ -70,6 +70,15 @@ function calculateWidth(originalWidth, originalHeight, newWidth){
 
 
 
+//This variable will hold the answer returned from the width function
+var widthTotal = calculateWidth(originalWidth, originalHeight, newWidth);
+
+//This variable will hold the message that will print to the console
+var widthMessage = "Your original image width is " + originalWidth + " pixels and the height is " + originalHeight + " pixels. When you change the width to " + newWidth + " pixels the new height will be " + widthTotal + " pixels.";
+
+
+
+
 
 console.log(originalWidth);
 console.log(originalHeight);
