@@ -55,10 +55,16 @@ if(userChoice == "width"){
 		
 //Or, if they answered with something other than width or height		
 }else{
-	  prompt("Please go back and fill in whether you know the new height or the new width of the image. Thanks!");
+	  alert("Please go back and fill in whether you know the new height or the new width of the image. Thanks!");
 }
 
+while(newWidth == "" || newWidth == 0){
+	   newWidth = prompt("Sorry, but we cannot continue until you enter the new width that you would like the image to be:");
+}
 
+while(newHeight == "" || newHeight == 0){
+	   newHeight = prompt("Sorry, but we cannot continue until you enter the new width that you would like the image to be:");
+}
 
 //This function calculates the information using the data gathered when the user's answer is width	
 function calculateWidth(originalWidth, originalHeight, newWidth){
@@ -93,12 +99,15 @@ var heightTotal = calculateHeight(originalWidth, newHeight, originalHeight);
 var heightMessage = "Your original image width is " + originalWidth + " pixels and the height is " + originalHeight + " pixels. When you change the height to " + newHeight + " pixels the new width will be " + heightTotal + " pixels.";
 
 
+//If the user's choice is width the widthMessage will print to the console, and if not the heightMessage will print to the console
+(userChoice == "width") ? console.log(widthMessage) : console.log(heightMessage);
 
 
-
+/*
 console.log(originalWidth);
 console.log(originalHeight);
 console.log(userChoice);
 console.log(newWidth);
 console.log(newHeight);
 console.log(widthTotal);
+*/
