@@ -88,6 +88,10 @@ function calculateHeight(originalWidth, newHeight, originalHeight){
 
 
 
+//This variable will hold the answer returned from the height function
+var heightTotal = calculateHeight(originalWidth, newHeight, originalHeight); 
+var heightMessage = "Your original image width is " + originalWidth + " pixels and the height is " + originalHeight + " pixels. When you change the height to " + newHeight + " pixels the new width will be " + heightTotal + " pixels.";
+
 
 
 
