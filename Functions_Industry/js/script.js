@@ -99,6 +99,10 @@ var heightTotal = calculateHeight(originalWidth, newHeight, originalHeight);
 var heightMessage = "Your original image width is " + originalWidth + " pixels and the height is " + originalHeight + " pixels. When you change the height to " + newHeight + " pixels the new width will be " + heightTotal + " pixels.";
 
 
+//If the user's choice is width the widthMessage will be alerted, and if not the heightMessage will be alerted to the user
+(userChoice == "width") ? alert(widthMessage) : alert(heightMessage);
+
+
 //If the user's choice is width the widthMessage will print to the console, and if not the heightMessage will print to the console
 (userChoice == "width") ? console.log(widthMessage) : console.log(heightMessage);
 
