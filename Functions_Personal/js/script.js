@@ -39,14 +39,16 @@ function calculateCereal(){
 		return cerealBox * bowlsPerBox * weeksYear;
 }
 
+//This variable collects the information from the function calculation
 var cerealTotal = calculateCereal();
 
+//This variable holds the message that will print to the console adn be alerted to the user
 var cerealMessage = "In one week, your household eats " + cerealBox + " boxes of cereal, and each box makes " + bowlsPerBox + " bowls of cereal. In one year, your household will eat " + cerealTotal + " bowls of cereal.";
 
-//This will alert the user of their cereal usage
+//This will alert the user of their cereal consumption
 alert(cerealMessage);
 
-//This will print to the console the user's cereal usage
+//This will print to the console the user's cereal consumption
 console.log(cerealMessage);
 
 
