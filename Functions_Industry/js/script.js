@@ -53,23 +53,31 @@ var newHeight;
 
 //If the user's answer is width
 if(userChoice == "width"){
+	
+		//This variable will prompt the user to enter the new width
 		newWidth = prompt("Please enter the new width that you would like the image to be:");		
 
 //Or, if the user's answer is height		 		
 }else if(userChoice == "height"){
+	
+		//This variable will prompt the user to enter the new height
 		newHeight = prompt("Please enter the new height that you would like the image to be:");
 		
 //Or, if they answered with something other than width or height		
 }else{
+	
+		//The user will be alerted to go back and fill in height or width
 	  alert("Please go back and fill in whether you know the new height or the new width of the image. Thanks!");
 }
 
+//While the newWidth prompt is empty or 0
 while(newWidth == "" || newWidth == 0){
 	
-		 //The user will prompted to answer this question until they fill in the prompt
+		 //The user will prompted to answer the question until they fill in the prompt
 	   newWidth = prompt("Sorry, but we cannot continue until you enter the new width that you would like the image to be:");
 }
 
+//While the newHeight prompt is empty or 0
 while(newHeight == "" || newHeight == 0){
 	
 		 //The user will prompted to answer this question until they fill in the prompt
