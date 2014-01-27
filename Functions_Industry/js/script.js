@@ -11,8 +11,10 @@
 var originalWidth = prompt("Please enter the width of the image in pixels:");
 
 
-//This while loop will keep prompting the user to enter the width until they fill in the prompt
+//While the originalWidth prompt is empty or 0 this will keep prompting the user to enter the width until they fill in the prompt
 while(originalWidth == "" || originalWidth == 0){
+	
+		//The user will prompted to answer this question until they fill in the prompt
 	 	originalWidth = prompt("To continue with the calculation, the width of the image is required.\nPlease enter the numerical value of the image's width:");
 }
 
@@ -23,6 +25,8 @@ var originalHeight = prompt("Please enter the height of the image in pixels:");
 
 //This while loop will keep prompting the user to enter the original height of the image
 while(originalHeight == "" || originalHeight == 0){
+	
+		//The user will prompted to answer this question until they fill in the prompt
 	 	originalHeight = prompt("To continue with the calculation, the height of the image is required.\nPlease enter the numerical value of the image's height:");
 }
 
@@ -33,6 +37,8 @@ var userChoice = prompt("Will you be entering the new width that you would like 
 
 //This while loop will keep prompting the user to enter if they have a new height or a new width
 while(userChoice == "" || userChoice == 0){
+	
+		//The user will prompted to answer this question until they fill in the prompt
 	 	userChoice = prompt("To continue with the calculation 'width' or 'height' must be entered. Please type in your answer:");
 }
 
@@ -59,10 +65,14 @@ if(userChoice == "width"){
 }
 
 while(newWidth == "" || newWidth == 0){
+	
+		 //The user will prompted to answer this question until they fill in the prompt
 	   newWidth = prompt("Sorry, but we cannot continue until you enter the new width that you would like the image to be:");
 }
 
 while(newHeight == "" || newHeight == 0){
+	
+		 //The user will prompted to answer this question until they fill in the prompt
 	   newHeight = prompt("Sorry, but we cannot continue until you enter the new width that you would like the image to be:");
 }
 
