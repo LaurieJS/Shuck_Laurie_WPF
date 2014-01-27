@@ -6,6 +6,7 @@
  
 //If an image on a website requires a size adjustment to fill a certain height or width, this calculation will help determine the new size of the image adjusted proportionally in pixels.
 
+
 //This variable will prompt the user to enter the original width of the image
 var originalWidth = prompt("Please enter the width of the image in pixels:");
 
@@ -16,6 +17,14 @@ while(originalWidth == "" || originalWidth == 0){
 }
 
 
+//This variable will prompt the user to enter the original height of the image
+var originalHeight = prompt("Please enter the height of the image in pixels:");
+
+
+
+
+
 
 
 console.log(originalWidth);
+console.log(originalHeight);
