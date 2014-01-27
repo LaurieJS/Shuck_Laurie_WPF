@@ -39,14 +39,20 @@ var calcOutcome = function(gold){
 	
 }
 
+//This variable hold the answer from the calcOutcome variable
 var final = calcOutcome(gold);
 
+//This message will be displayed to the console and alerted to the user
 var message = "The Leprechauns will build you a house with " + final + " bedrooms and " + notes + " outhouses.";
 
+
+//If the final number of bedrooms is greater than or equal to 12
 if(final >= 12){
+	
+	 //If true, this message will print to the console	
 	 console.log(message + " I was not aware that Mr. T got sucked into the Inner Earth.");
 	
-	
+//Or, if the bedrooms are under 12 but greater than 0	
 }else if(final < 12 && final > 0){
 		console.log(message + " You have a modest home, but you still have room to have a couple miniature giraffes as pets.");
 }else{
