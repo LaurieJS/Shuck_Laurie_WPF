@@ -11,6 +11,10 @@
 //This variable will prompt the user to enter the number of boxes of cereal that are consumed in a week, on average
 var cerealBox = prompt("Please enter the number of boxes of cereal that your household consumes per week:");
 
+while(cerealBox == ""){
+	   cerealBox = prompt("Please enter the number of boxes or cereal that your household consumes per week:");
+}
+
 
 
 
