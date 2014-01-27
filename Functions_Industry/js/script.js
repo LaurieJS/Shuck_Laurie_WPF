@@ -69,6 +69,7 @@ while(newHeight == "" || newHeight == 0){
 //This function calculates the information using the data gathered when the user's answer is width	
 function calculateWidth(originalWidth, originalHeight, newWidth){
 	
+		//This will return the originalHeight multiplied by the newWidth divided by the originalWidth
 		return originalHeight * newWidth / originalWidth;
 	
 }
@@ -86,7 +87,8 @@ var widthMessage = "Your original image width is " + originalWidth + " pixels an
 
 //This function calculates the information using the data gathered when the user's answer is height
 function calculateHeight(originalWidth, newHeight, originalHeight){
-	
+			
+			//This will return the information originalWidth multplied by newHeight divided by the originalHeight
 	 		return originalWidth * newHeight / originalHeight;
 			
 }
