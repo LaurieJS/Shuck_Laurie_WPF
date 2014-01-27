@@ -27,6 +27,9 @@ var bowlsPerBox = prompt("On average, how many bowls of cereal does each box mak
 
 while(bowlPerBox == "" || bowlsPerBox == 0){
 	
+	//This will prompt the user to answer the number bowls of ceral per box
+	bowlsPerBox = prompt("To continue with the calculation, the number of bowls each box makes is required:");
+	
 }
 
 
