@@ -41,8 +41,10 @@ function calculateCereal(){
 
 var cerealTotal = calculateCereal();
 
-var cerealMessage = "In one week your household eats " + cerealBox + " boxes of cereal, and each box makes " + bowlsPerBox + " bowls of cereal. In one year your household will eat " + cerealTotal + " bowls of cereal.";
+var cerealMessage = "In one week, your household eats " + cerealBox + " boxes of cereal, and each box makes " + bowlsPerBox + " bowls of cereal. In one year, your household will eat " + cerealTotal + " bowls of cereal.";
 
+
+alert(cerealMessage);
 console.log(cerealMessage);
 
 
