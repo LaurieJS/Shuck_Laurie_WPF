@@ -20,10 +20,15 @@ while(gold == ""){
 		gold = prompt("Please enter the number of pieces of gold you were wearing when you were magically sucked into the Inner Earth:");
 }
 
+
+//This variable holds the prompt that asks the user how many Federal Reserve Notes they have 
 var notes = prompt("How many Federal Reserve Notes do you have? Enter the number of notes that you have and not their face value.\nExample: if you have four $20 dollar bills, you would enter the number 4.");
 
+
+//While the notes prompt is empty the user will be promted to fill in how many Federal Reserve Notes they have
 while(notes == ""){
 	
+		 //This prompt will appear until the user fills in how many Federal Reserve Notes that they have
 		 notes = prompt("Please enter the number of Federal Reserve Notes that you have:");
 	
 }
