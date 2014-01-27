@@ -27,6 +27,10 @@ while(originalHeight == "" || originalHeight == 0){
 }
 
 
+//This variable will prompt the user to enter whether they have a new height or a new width
+var userChoice = prompt("Will you be entering the new width that you would like the image to be, or the new height that you would like the image to be?\nPlease type in 'width' or 'height':");
+
+
 
 
 
