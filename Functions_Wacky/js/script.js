@@ -54,18 +54,21 @@ if(final >= 12){
 	
 //Or, if the bedrooms are under 12 but greater than 0	
 }else if(final < 12 && final > 0){
+	
+		//If true, this will print to the console
 		console.log(message + " You have a modest home, but you still have room to have a couple miniature giraffes as pets.");
+
+//Or, 		
 }else{
+	
+		//If the user has no gold or they entered garbled info this will print to the console
 	  console.log(message + " You better start looking around for twigs and leaves to make shelter. Hopefully, you have something the Leprechauns want, or you are going to be a homeless Inner Earth dweller.");
 
 }
 
 
 
-/*
-console.log(gold);
-console.log(notes);*/
-/*console.log(calcOutcome);*/
+
 
 
 
