@@ -60,6 +60,15 @@ if(userChoice == "width"){
 
 
 
+//This function calculates the information using the data gathered when the user's answer is width	
+function calculateWidth(originalWidth, originalHeight, newWidth){
+	
+		return originalHeight * newWidth / originalWidth;
+	
+}
+
+
+
 
 
 console.log(originalWidth);
