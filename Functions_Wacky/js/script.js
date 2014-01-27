@@ -21,6 +21,40 @@ var notes = prompt("How many Federal Reserve Notes do you have? Enter the number
 
 while(notes == ""){
 	
-		notes = prompt("Please enter the number of Federal Reserve Notes that you have:");
+		 notes = prompt("Please enter the number of Federal Reserve Notes that you have:");
 	
 }
+
+var calcOutcome = function(gold){
+	   var goldAnswer = gold * 2;
+		 return goldAnswer;
+	
+}
+
+var final = calcOutcome(gold);
+
+var message = "The Leprechauns will build you a house with " + final + " bedrooms and " + notes + " outhouses.";
+
+if(final >= 12){
+	 console.log(message + " I was not aware that Mr. T got sucked into the Inner Earth.");
+	
+	
+}else if(final < 12 && final > 0){
+		console.log(message + "You have a modest home, but you still have room to have a couple miniature giraffes as pets.");
+}else{
+	  console.log(message + "You better start looking around for twigs and leaves to make shelter. Hopefully, you have something the Leprechauns want, or you are going to be a homeless Inner Earth dweller.");
+
+}
+
+
+
+/*
+console.log(gold);
+console.log(notes);*/
+/*console.log(calcOutcome);*/
+
+
+
+
+
+
