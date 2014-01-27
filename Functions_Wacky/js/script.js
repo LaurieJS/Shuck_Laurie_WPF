@@ -9,6 +9,7 @@
  
 /*You are watching TV when you are magically sucked into the Inner Earth. The Leprechauns that reside there inform you that there is no way for you to return home because they are unable to escape the InnerEarth's gravity. The Leprechauns offer to build you a two bedroom home for a piece of gold, and if you have any other pieces of gold they will build two additional rooms to your house. In addition, if you have any Federal Reserve Notes they will build you one outhouse per note regardless of its denomination.*/
 
+
 //This variable holds the prompt that asks the user how many pieces of gold they have
 var gold = prompt("How many pieces of gold were you wearing when you magically got sucked into the Inner Earth?");
 
@@ -33,17 +34,28 @@ while(notes == ""){
 	
 }
 
+
+
+
+//This variable holds an anonymous function with the parameter of gold
 var calcOutcome = function(gold){
+	
+		 //created a local variable to make the gold calculation
 	   var goldAnswer = gold * 2;
+		 
+		 //This will return the answer
 		 return goldAnswer;
 	
 }
 
-//This variable hold the answer from the calcOutcome variable
+
+
+//This variable holds the answer from the calcOutcome variable
 var final = calcOutcome(gold);
 
 //This message will be displayed to the console and alerted to the user
 var message = "The Leprechauns will build you a house with " + final + " bedrooms and " + notes + " outhouses.";
+
 
 
 //If the final number of bedrooms is greater than or equal to 12
