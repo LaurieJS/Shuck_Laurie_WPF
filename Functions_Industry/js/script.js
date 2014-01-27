@@ -37,6 +37,20 @@ while(userChoice == "" || userChoice == 0){
 }
 
 
+//This variable will hold the data the user enters when they choose width
+var newWidth;
+
+//This variable will hold the data the user enters when they choose height
+var newHeight;
+
+
+
+
+
+
 
 console.log(originalWidth);
 console.log(originalHeight);
+console.log(userChoice);
+console.log(newWidth);
+console.log(newHeight);
