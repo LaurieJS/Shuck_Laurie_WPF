@@ -84,6 +84,8 @@ while(newHeight == "" || newHeight == 0){
 	   newHeight = prompt("Sorry, but we cannot continue until you enter the new width that you would like the image to be:");
 }
 
+
+
 //This function calculates the information using the data gathered when the user's answer is width	
 function calculateWidth(originalWidth, originalHeight, newWidth){
 	
