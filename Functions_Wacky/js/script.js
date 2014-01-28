@@ -23,7 +23,7 @@ while(gold == ""){
 
 
 //This variable holds the prompt that asks the user how many Federal Reserve Notes they have 
-var notes = prompt("How many Federal Reserve Notes do you have? Enter the number of notes that you have and not their face value.\nExample: if you have four $20 dollar bills, you would enter the number 4.");
+var notes = prompt("How many Federal Reserve Notes do you have? Enter the number of notes that you have and not their face value.\nExample: If you have four $20 dollar bills, you should enter the number 4.");
 
 
 //While the notes prompt is empty the user will be promted to fill in how many Federal Reserve Notes they have
@@ -61,18 +61,27 @@ var message = "The Leprechauns will build you a house with " + final + " bedroom
 //If the final number of bedrooms is greater than or equal to 12
 if(final >= 12){
 	
-	 //If true, this message will print to the console	
-	 console.log(message + " I was not aware that Mr. T got sucked into the Inner Earth.");
+	  //If true, this message will be alerted to the user
+	  alert(message + " I was not aware that Mr. T got sucked into the Inner Earth.");
+	 
+		//If true, this message will print to the console	
+	  console.log(message + " I was not aware that Mr. T got sucked into the Inner Earth."); 
 	
 //Or, if the bedrooms are under 12 but greater than 0	
 }else if(final < 12 && final > 0){
 	
+		//If true, this message will be alerted to the user
+		alert(message + " You will have a modest home, but you still have room to have a couple miniature giraffes as pets.");
+		
 		//If true, this will print to the console
-		console.log(message + " You have a modest home, but you still have room to have a couple miniature giraffes as pets.");
+		console.log(message + " You will have a modest home, but you still have room to have a couple miniature giraffes as pets.");
 
 //Or, 		
 }else{
 	
+		//If the user has no gold or they entered garbled info this message will be alerted to the user
+	  alert(message + " You better start looking around for twigs and leaves to make shelter. Hopefully, you have something the Leprechauns want, or you are going to be a homeless Inner Earth dweller.");
+		
 		//If the user has no gold or they entered garbled info this will print to the console
 	  console.log(message + " You better start looking around for twigs and leaves to make shelter. Hopefully, you have something the Leprechauns want, or you are going to be a homeless Inner Earth dweller.");
 
